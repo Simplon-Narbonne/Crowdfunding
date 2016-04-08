@@ -3,6 +3,12 @@
   $user = 'fifouak';
   $projFollow = 'https://api.ulule.com/v1/users/1026073/projects?filter=followed';
   $request = 'curl -H "Authorization: Apikey '.$user.':'.$key.'" '.$projFollow;
-  $connexion = shell_exec($request);
+
+try {
+    $connexion = shell_exec($request);
+} catch (Exception $e) {
+    echo 'Exception reçue : ',  $e->getMessage(), "\n";
+}
+
   // $connexionV2 = file_get_contents(https://api.ulule.com/v1/);
 ?>
