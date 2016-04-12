@@ -5,7 +5,9 @@
     <title>Projets Narbonnais</title>
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="css/bootstrap/css/bootstrap.css"/>
-    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/normalize.css" type="text/css"/>
+    <link rel="stylesheet" href="css/style.css" type="text/css"/>
+    <link rel="stylesheet" href="css/stylealternatif.css" type="text/css"/>
   </head>
 
 ​<?php
@@ -26,27 +28,33 @@ include('includes/connexionApi.php');
 // BANNIERE
   echo "
   <body>
-    <header>
-          <img src= 'images/soleil1.jpg' id ='ciel'/>
-          <img src='images/logo-grand-narbonne.png' id='logo'/>
-          <div id ='titre'>
-            <h1>Crowd-<span id='F'>F</span><span id= 'U'>U</span><span id='N'>N</span>-Ding</h1>
-          </div>
-    </header>";
+  <header>
+    <nav>
+      <div class='elementposition'>
+        <img src='images/logo-grand-narbonne.png' alt='Logo Le Grand Narbonne'/>
+        <h1>Crowd-<span class='F'>F</span><span class='U'>U</span><span class='N'>N</span>-Ding</h1>
+      </div>
+      <div class='elementposition'>
+          <a href='#' class='navlink'>ACCUEIL</a>
+          <a href='#' class='navlink'>PROJET D ICI</a>
+          <a href='#' class='navlink'>A PROPOS</a>
+      </div>
+    </nav>
+  </header>";
 // BANNIERE FIN
 
 // NAVBAR
-echo "
-    <div id='menu' class='row'>
-      <nav>
-          <ul class='nav nav-pills nav-justified'>
-              <li ><a href='index.html' id = 'accueil'>ACCUEIL</a></li>
-              <li><a href='#' id = 'projet'>PROJET D'ICI</a></li>
-              <li><a href='apropos.html' id = 'apropos'>A PROPOS</a></li>
-          </ul>
-      </nav>
-    </div>";
-// NAVBAR FIN
+// echo
+//     <div id='menu' class='row'>
+//       <nav>
+//           <ul class='nav nav-pills nav-justified'>
+//               <li ><a href='index.html' id = 'accueil'>ACCUEIL</a></li>
+//               <li><a href='#' id = 'projet'>PROJET D'ICI</a></li>
+//               <li><a href='apropos.html' id = 'apropos'>A PROPOS</a></li>
+//           </ul>
+//       </nav>
+//     </div>";
+// // NAVBAR FIN
 ?>
 <!-- HEADER STATIQUE FIN -->
 
