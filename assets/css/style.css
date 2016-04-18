@@ -187,3 +187,28 @@ padding :  15px 5px 0px 5px ;
   font-size: 15px;
   padding-top: 40px;
 }
+
+  .img_entreprise{
+width:100px;
+}
+
+.nom_entreprise{
+  font-size:0.8em;
+}
+
+.vertical_center{
+  padding-top :30px;
+  padding-bottom :30px;
+}
+
+.adresse_entreprise{
+  font-size:0.8em;
+}
+
+.tel_entreprise{
+  font-size:0.8em;
+}
+
+.mail_entreprise{
+  font-size:0.8em;
+}
