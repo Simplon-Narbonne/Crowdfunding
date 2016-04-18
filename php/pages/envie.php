@@ -20,9 +20,9 @@ include('/includes/header.php');
 <div class="row">
   <div class="col-lg-9 col-centered" >
     <!-- [DEBUT] L'idée-->
-    <div class="row">
+    <div class="row" style="border:1px solid white ; box-shadow:3px 3px 4px grey ; border-radius:10px ;margin:10px ; padding:10px">
       <!-- [DEBUT] Logo Rubrique -->
-  <div class="col-lg-2" >
+  <div class="col-lg-2" style="border-right:1px solid grey">
      <img class="img-responsive img_entreprise" src="../../assets/images/logo/idee.png"/>
    </div>
    <!-- [FIN] Logo Rubrique -->
@@ -56,7 +56,7 @@ include('/includes/header.php');
 
 
 <!-- [DEBUT] MLJ -->
-  <div class="col-lg-5">
+  <div class="col-lg-5" style="border-left:1px solid grey ; border-right:1px solid grey">
     <div class="row">
         <!-- [DEBUT] Logo entreprise -->
       <div class="col-lg-3" >
@@ -83,7 +83,7 @@ include('/includes/header.php');
 
 
 <!-- [DEBUT] POLE EMPLOI -->
-  <div class="col-lg-5">
+  <div class="col-lg-5" style="border-left:1px solid grey">
     <div class="row">
         <!-- [DEBUT] Logo entreprise -->
       <div class="col-lg-3" >
@@ -111,6 +111,47 @@ include('/includes/header.php');
 
     <!-- [FIN] L'idée -->
   </div>
+
+
+  <!-- [DEBUT] L'amorcage-->
+  <div class="row" style="border:1px solid white ; box-shadow:3px 3px 4px grey ; border-radius:10px ;margin:10px ; padding:10px">
+    <!-- [DEBUT] Logo Rubrique -->
+<div class="col-lg-2" >
+   <img class="img-responsive img_entreprise" src="../../assets/images/logo/amorcage.png"/>
+ </div>
+ <!-- [FIN] Logo Rubrique -->
+
+
+<!-- [DEBUT] CitésLab -->
+<div class="col-lg-5 vertical_center" style="border-left:1px solid grey" >
+  <div class="row">
+      <!-- [DEBUT] Logo entreprise -->
+    <div class="col-lg-3 vertical center" >
+      <a href="http://entreprendre.legrandnarbonne.com/717-iness-des-hommes-des-projets.html">
+        <img class="img-responsive" src="../../assets/images/logo/iness.png"/>
+      </a>
+    </div>
+      <!-- [FIN] Logo entreprise -->
+      <!-- [DEBUT] Nom + Description -->
+    <div class="col-lg-9" >
+      <a class="nom_entreprise">CitésLab</a>
+      <p class="adresse_entreprise"> 30 av Pompidor - 11100 Narbonne</p>
+    </div>
+      <!-- [FIN] Nom + Description -->
+  </div>
+</div>
+      <!-- [DEBUT] Contact entreprise -->
+<div class="col-lg-5 vertical_center" style="border-left:1px solid grey" >
+  <p class="tel_entreprise">TEL : 04 11 23 22 73</p>
+  <a class="mail_entreprise" href="mailto:melanie.barge@citeslab.fr">melanie.barge@citeslab.fr</a>
+</div>
+      <!-- [FIN] Contact entreprise -->
+      <!-- [FIN] GRAND NARBONNE-->
+
+
+</div>   <!-- [FIN] L'amorçage -->
+
+
 
 
   </div>
