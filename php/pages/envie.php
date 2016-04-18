@@ -67,7 +67,7 @@ include('/includes/header.php');
         <!-- [FIN] Logo entreprise -->
         <!-- [DEBUT] Nom + Description -->
       <div class="col-lg-9" >
-        <a href="http://www.mljnarbonne.fr/" class="nom_entreprise">Mission Locale Jeunes du Grand Narbonne</a>
+        <a class="nom_entreprise" href="http://www.mljnarbonne.fr/">Mission Locale Jeunes du Grand Narbonne</a>
         <p class="adresse_entreprise"> 30 av Pompidor - 11100 Narbonne</p>
       </div>
         <!-- [FIN] Nom + Description -->
@@ -94,7 +94,7 @@ include('/includes/header.php');
         <!-- [FIN] Logo entreprise -->
         <!-- [DEBUT] Nom + Description -->
       <div class="col-lg-9" >
-        <a class="nom_entreprise">Pôle Emploi</a>
+        <a class="nom_entreprise" href="www.pole-emploi.fr">Pôle Emploi</a>
         <p class="adresse_entreprise"> 100 rue Antoine Becquerel - 11100 Narbonne</p>
       </div>
         <!-- [FIN] Nom + Description -->
