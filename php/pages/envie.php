@@ -18,7 +18,7 @@ include('/includes/header.php');
 <!-- BODY -->
 <div class="container">
 <div class="row">
-  <div class="col-lg-9 col-centered" >
+  <div class="col-lg-10 col-centered" >
     <!-- [DEBUT] L'idée-->
     <div class="row" style="border:1px solid #f6f6f6 ; box-shadow:3px 3px 4px grey ; border-radius:10px ;margin:10px ; padding:10px">
       <!-- [DEBUT] Logo Rubrique -->
