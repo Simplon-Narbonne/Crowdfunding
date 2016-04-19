@@ -32,5 +32,5 @@
   </div>
 </nav>
     </header>"
-<script src="../../assets/script/jquery/jquery-2-2-2.js"></script>
+<script src="../../assets/script/jquery-2-2-2.js"></script>
  <script src="../../assets/css/bootstrap/js/bootstrap.min.js"></script>
