@@ -12,18 +12,30 @@
 
 <!-- HEADER -->
 <?php
-include('/includes/header.php');
+include('../includes/header.php');
 ?>
 
 <!-- BODY -->
 <div class="container">
 <div class="row">
   <div class="col-lg-10 col-centered" >
-    <!-- [DEBUT] L'idée-->
+    <div class="row">
+      <div class="col-lg-12 vertical_center col-centered">
+        <div class="titre_page">LE PARCOURS DU CREATEUR D'ENTREPRISE
+        <br/>
+        SUR LE TERRITOIRE DU GRAND NARBONNE</div>
+      </div>
+    </div>
+      <!-- [DEBUT] L'idée-->
     <div class="row" style="border:1px solid #f6f6f6 ; box-shadow:3px 3px 4px grey ; border-radius:10px ;margin:10px ; padding:10px">
+      <div class="row">
+        <div class="col-lg-12">
+          <p class="titre_rubrique">L'idée</p >
+        </div>
+      </div>
       <!-- [DEBUT] Logo Rubrique -->
   <div class="col-lg-2" >
-     <img class="img-responsive img_entreprise" src="../../assets/images/logo/idee.png"/>
+     <img class="img-responsive img_rubrique" src="../../assets/images/logo/idee.png"/>
    </div>
    <!-- [FIN] Logo Rubrique -->
 
@@ -31,7 +43,7 @@ include('/includes/header.php');
 <!-- [DEBUT] GRAND NARBONNE -->
   <div class="col-lg-7" style="border-left:1px solid grey ; border-right:1px solid grey" >
     <div class="row">
-        <!-- [DEBUT] Logo entreprise -->
+        <!-- [DEBUT] Logo entreprise -->
       <div class="col-lg-3" >
         <a href="http://entreprendre.legrandnarbonne.com/717-iness-des-hommes-des-projets.html">
           <img class="img-responsive" src="../../assets/images/logo/iness.png"/>
@@ -41,7 +53,7 @@ include('/includes/header.php');
         <!-- [DEBUT] Nom + Description -->
       <div class="col-lg-9" >
         <a class="nom_entreprise">IN’ESS Le Grand Narbonne</a>
-        <p class="adresse_entreprise"> 30 av Pompidor - 11100 Narbonne</p>
+        <p class="adresse_entreprise">30 av Pompidor - 11100 Narbonne</p>
         <!-- [FIN] Nom + Description -->
       </div>
 <!-- [FIN] GRAND NARBONNE-->
@@ -49,7 +61,7 @@ include('/includes/header.php');
 
 <!-- [DEBUT] MLJ -->
     <div class="row">
-        <!-- [DEBUT] Logo entreprise -->
+        <!-- [DEBUT] Logo entreprise -->
       <div class="col-lg-3" >
         <a href="http://www.mljnarbonne.fr/">
           <img class="img-responsive" src="../../assets/images/logo/mission-locale.png"/>
@@ -67,7 +79,7 @@ include('/includes/header.php');
 
 <!-- [DEBUT] POLE EMPLOI -->
     <div class="row">
-        <!-- [DEBUT] Logo entreprise -->
+        <!-- [DEBUT] Logo entreprise -->
       <div class="col-lg-3" >
         <a href="http://www.pole-emploi.fr/">
           <img class="img-responsive" src="../../assets/images/logo/pole-emploi.png"/>
@@ -117,6 +129,11 @@ include('/includes/header.php');
 
 <!-- [DEBUT] L'amorcage-->
     <div class="row" style="border:1px solid white ; box-shadow:3px 3px 4px grey ; border-radius:10px ;margin:10px ; padding:10px">
+      <div class="row">
+        <div class="col-lg-12">
+          <p class="titre_rubrique">L'amorçage</p >
+        </div>
+      </div>
       <!-- [DEBUT] Logo Rubrique -->
       <div class="col-lg-2" >
         <img class="img-responsive img_entreprise" src="../../assets/images/logo/amorcage.png"/>
@@ -127,7 +144,7 @@ include('/includes/header.php');
 <!-- [DEBUT] CitésLab -->
 <div class="col-lg-7 vertical_center" style="border-left:1px solid grey" >
   <div class="row">
-      <!-- [DEBUT] Logo entreprise -->
+      <!-- [DEBUT] Logo entreprise -->
     <div class="col-lg-3 vertical center" >
       <a href="http://entreprendre.legrandnarbonne.com/717-iness-des-hommes-des-projets.html">
         <img class="img-responsive" src="../../assets/images/logo/iness.png"/>
@@ -161,9 +178,14 @@ include('/includes/header.php');
 
 <!-- [DEBUT] L'Accompagnement au projet et formation -->
 <div class="row" style="border:1px solid #f6f6f6 ; box-shadow:3px 3px 4px grey ; border-radius:10px ;margin:10px ; padding:10px">
+  <div class="row">
+    <div class="col-lg-12">
+      <p class="titre_rubrique">Accompagnement au projet et formation </p >
+    </div>
+  </div>
   <!-- [DEBUT] Logo Rubrique -->
 <div class="col-lg-2" >
- <img class="img-responsive img_entreprise" src="../../assets/images/logo/accompagnement-formation.png"/>
+  <img class="img-responsive img_entreprise" src="../../assets/images/logo/accompagnement-formation.png"/>
 </div>
 <!-- [FIN] Logo Rubrique -->
 
@@ -171,7 +193,7 @@ include('/includes/header.php');
 <!-- [DEBUT] Chambre de Commerce et d’Industrie de Narbonne -->
 <div class="col-lg-7" style="border-left:1px solid grey ; border-right:1px solid grey" >
 <div class="row">
-    <!-- [DEBUT] Logo entreprise -->
+    <!-- [DEBUT] Logo entreprise -->
   <div class="col-lg-3" >
     <a href="http://www.narbonne.cci.fr/">
       <img class="img-responsive" src="../../assets/images/logo/cci-narbonne.png"/>
@@ -189,7 +211,7 @@ include('/includes/header.php');
 
 <!-- [DEBUT] Chambre de Métiers et de l’Artisanat de l’Aude -->
 <div class="row">
-    <!-- [DEBUT] Logo entreprise -->
+    <!-- [DEBUT] Logo entreprise -->
   <div class="col-lg-3" >
     <a href="http://www.artisanat.fr/">
       <img class="img-responsive" src="../../assets/images/logo/cma.png"/>
@@ -207,7 +229,7 @@ include('/includes/header.php');
 
 <!-- [DEBUT] Chambre d’Agriculture de l’Aude -->
 <div class="row">
-    <!-- [DEBUT] Logo entreprise -->
+    <!-- [DEBUT] Logo entreprise -->
   <div class="col-lg-3" >
     <a href="http://www.aude.chambagri.fr/">
       <img class="img-responsive" src="../../assets/images/logo/chambre-d-agri.png"/>
@@ -225,7 +247,7 @@ include('/includes/header.php');
 
 <!-- [DEBUT] BGE Aude et des Pyrénées Orientales -->
 <div class="row">
-    <!-- [DEBUT] Logo entreprise -->
+    <!-- [DEBUT] Logo entreprise -->
   <div class="col-lg-3" >
     <a href="http://www.bgelr.fr/implantation/bge-aude-et-pyrenees-orientales/">
       <img class="img-responsive" src="../../assets/images/logo/bge.png"/>
@@ -243,7 +265,7 @@ include('/includes/header.php');
 
 <!-- [DEBUT] POLE EMPLOI -->
     <div class="row">
-        <!-- [DEBUT] Logo entreprise -->
+        <!-- [DEBUT] Logo entreprise -->
       <div class="col-lg-3" >
         <a href="http://www.pole-emploi.fr/">
           <img class="img-responsive" src="../../assets/images/logo/pole-emploi.png"/>
@@ -261,7 +283,7 @@ include('/includes/header.php');
 
 <!-- [DEBUT] La Ruche Associative 11 -->
 <div class="row">
-    <!-- [DEBUT] Logo entreprise -->
+    <!-- [DEBUT] Logo entreprise -->
   <div class="col-lg-3" >
     <a href="http://www.larucheassociative.org/">
       <img class="img-responsive" src="../../assets/images/logo/ruche.jpg"/>
@@ -331,9 +353,15 @@ include('/includes/header.php');
 
 <!-- [DEBUT] TEST DU PROJET -->
 <div class="row" style="border:1px solid #f6f6f6 ; box-shadow:3px 3px 4px grey ; border-radius:10px ;margin:10px ; padding:10px">
+  <div class="row">
+    <div class="col-lg-12">
+      <p class="titre_rubrique">Test du projet</p >
+    </div>
+  </div>
   <!-- [DEBUT] Logo Rubrique -->
 <div class="col-lg-2" >
- <img class="img-responsive img_entreprise" src="../../assets/images/logo/projet.png"/>
+
+  <img class="img-responsive img_entreprise" src="../../assets/images/logo/projet.png"/>
 </div>
 <!-- [FIN] Logo Rubrique -->
 
@@ -341,7 +369,7 @@ include('/includes/header.php');
 <!-- [DEBUT] NUCLEUM Couveuse Pépinière d’Entreprises -->
 <div class="col-lg-7" style="border-left:1px solid grey ; border-right:1px solid grey" >
 <div class="row">
-    <!-- [DEBUT] Logo entreprise -->
+    <!-- [DEBUT] Logo entreprise -->
   <div class="col-lg-3" >
     <a href="">
       <img class="img-responsive" src="../../assets/images/logo/nucleum.png"/>
@@ -359,7 +387,7 @@ include('/includes/header.php');
 
 <!-- [DEBUT] Energies Alternatives Méditerranée -->
 <div class="row">
-    <!-- [DEBUT] Logo entreprise -->
+    <!-- [DEBUT] Logo entreprise -->
   <div class="col-lg-3" >
     <a href="">
       <img class="img-responsive" src="../../assets/images/logo/energies-alternative.png"/>
@@ -377,7 +405,7 @@ include('/includes/header.php');
 
 <!-- [DEBUT] Vivéla -->
 <div class="row">
-    <!-- [DEBUT] Logo entreprise -->
+    <!-- [DEBUT] Logo entreprise -->
   <div class="col-lg-3" >
     <a href="">
       <img class="img-responsive" src="../../assets/images/logo/vivela.png"/>
@@ -425,8 +453,14 @@ include('/includes/header.php');
 
 <!-- [DEBUT] HEBERGEMENT ET PREMIERS PAS -->
 <div class="row" style="border:1px solid #f6f6f6 ; box-shadow:3px 3px 4px grey ; border-radius:10px ;margin:10px ; padding:10px">
+  <div class="row">
+    <div class="col-lg-12">
+      <p class="titre_rubrique">Hebergement et premiers pas</p >
+    </div>
+  </div>
   <!-- [DEBUT] Logo Rubrique -->
 <div class="col-lg-2" >
+
  <img class="img-responsive img_entreprise" src="../../assets/images/logo/hebergement.png"/>
 </div>
 <!-- [FIN] Logo Rubrique -->
@@ -435,7 +469,7 @@ include('/includes/header.php');
 <!-- [DEBUT] EOLE - Pépinière Hôtel d’Entreprises -->
 <div class="col-lg-7" style="border-left:1px solid grey ; border-right:1px solid grey" >
 <div class="row">
-    <!-- [DEBUT] Logo entreprise -->
+    <!-- [DEBUT] Logo entreprise -->
   <div class="col-lg-3" >
     <a href="">
       <img class="img-responsive" src="../../assets/images/logo/eole.png"/>
@@ -453,7 +487,7 @@ include('/includes/header.php');
 
 <!-- [DEBUT] INNOVEUM - Pépinière Hôtel d’Entreprises -->
 <div class="row">
-    <!-- [DEBUT] Logo entreprise -->
+    <!-- [DEBUT] Logo entreprise -->
   <div class="col-lg-3" >
     <a href="">
       <img class="img-responsive" src="../../assets/images/logo/innoveum.png"/>
@@ -471,7 +505,7 @@ include('/includes/header.php');
 
 <!-- [DEBUT] NUCLEUM Couveuse Pépinière d’Entreprises -->
 <div class="row">
-    <!-- [DEBUT] Logo entreprise -->
+    <!-- [DEBUT] Logo entreprise -->
   <div class="col-lg-3" >
     <a href="">
       <img class="img-responsive" src="../../assets/images/logo/nucleum.png"/>
@@ -520,8 +554,13 @@ include('/includes/header.php');
 <!-- [DEBUT] AIDE AU FINANCEMENT DU PROJET -->
 <div class="row" style="border:1px solid #f6f6f6 ; box-shadow:3px 3px 4px grey ; border-radius:10px ;margin:10px ; padding:10px">
   <!-- [DEBUT] Logo Rubrique -->
+  <div class="row">
+    <div class="col-lg-12">
+      <p class="titre_rubrique">Aide au financement du projet</p >
+    </div>
+  </div>
 <div class="col-lg-2" >
- <img class="img-responsive img_entreprise" src="../../assets/images/logo/financement.png"/>
+  <img class="img-responsive img_entreprise" src="../../assets/images/logo/financement.png"/>
 </div>
 <!-- [FIN] Logo Rubrique -->
 
@@ -529,7 +568,7 @@ include('/includes/header.php');
 <!-- [DEBUT] ADIE -->
 <div class="col-lg-7" style="border-left:1px solid grey ; border-right:1px solid grey" >
 <div class="row">
-    <!-- [DEBUT] Logo entreprise -->
+    <!-- [DEBUT] Logo entreprise -->
   <div class="col-lg-3" >
     <a href="">
       <img class="img-responsive" src="../../assets/images/logo/adie.png"/>
@@ -547,7 +586,7 @@ include('/includes/header.php');
 
 <!-- [DEBUT] AIRDIE -->
 <div class="row">
-    <!-- [DEBUT] Logo entreprise -->
+    <!-- [DEBUT] Logo entreprise -->
   <div class="col-lg-3" >
     <a href="">
       <img class="img-responsive" src="../../assets/images/logo/airdie.png"/>
@@ -565,7 +604,7 @@ include('/includes/header.php');
 
 <!-- [DEBUT] Initiative Narbonne Arrondissement -->
 <div class="row">
-    <!-- [DEBUT] Logo entreprise -->
+    <!-- [DEBUT] Logo entreprise -->
   <div class="col-lg-3" >
     <a href="http://www.initiative-lr.fr/initiative-narbonne-arrondissement.html">
       <img class="img-responsive" src="../../assets/images/logo/initiative.png"/>
@@ -614,8 +653,14 @@ include('/includes/header.php');
 <!-- [DEBUT] CONSEIL D'EXPERT -->
 <div class="row" style="border:1px solid #f6f6f6 ; box-shadow:3px 3px 4px grey ; border-radius:10px ;margin:10px ; padding:10px">
   <!-- [DEBUT] Logo Rubrique -->
+  <div class="row">
+    <div class="col-lg-12">
+      <p class="titre_rubrique">Conseils d'expert</p >
+    </div>
+  </div>
 <div class="col-lg-2" >
- <img class="img-responsive img_entreprise" src="../../assets/images/logo/conseils.png"/>
+
+  <img class="img-responsive img_entreprise" src="../../assets/images/logo/conseils.png"/>
 </div>
 <!-- [FIN] Logo Rubrique -->
 
@@ -623,7 +668,7 @@ include('/includes/header.php');
 <!-- [DEBUT] Chambre des Experts Comptables du Narbonnais -->
 <div class="col-lg-7" style="border-left:1px solid grey ; border-right:1px solid grey" >
 <div class="row">
-    <!-- [DEBUT] Logo entreprise -->
+    <!-- [DEBUT] Logo entreprise -->
   <div class="col-lg-3" >
     <a href="">
       <img class="img-responsive" src="../../assets/images/logo/expert-comptable.png"/>
@@ -641,7 +686,7 @@ include('/includes/header.php');
 
 <!-- [DEBUT] Ordre des Avocats du Barreau de Narbonne-->
 <div class="row">
-    <!-- [DEBUT] Logo entreprise -->
+    <!-- [DEBUT] Logo entreprise -->
   <div class="col-lg-3" >
     <a href="">
       <img class="img-responsive" src="../../assets/images/logo/avocats.png"/>
@@ -659,7 +704,7 @@ include('/includes/header.php');
 
 <!-- [DEBUT] AGEA Chambre professionnelle des Agents Généraux d’assurance de Narbonne - Lézignan -->
 <div class="row">
-    <!-- [DEBUT] Logo entreprise -->
+    <!-- [DEBUT] Logo entreprise -->
   <div class="col-lg-3" >
     <a href="http://www.initiative-lr.fr/initiative-narbonne-arrondissement.html">
       <img class="img-responsive" src="../../assets/images/logo/initiative.png"/>
@@ -713,5 +758,5 @@ d’assurance de Narbonne - Lézignant</a>
 
 <!-- FOOTER -->
 <?php
-include('/includes/footer.php');
+include('../includes/footer.php');
 ?>
