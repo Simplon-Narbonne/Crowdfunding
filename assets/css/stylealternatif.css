@@ -44,44 +44,6 @@ header a {
   font-family: 'Raleway', sans-serif;
 }
 
-.F {
-  color: #BE004F;
-}
-.U {
-  color: #F7B310;
-}
-.N {
-  color: #103F54;
-}
-
-/*nav {
-  margin-top: -25px;
-}*/
-
-/*
-Liens*/
-
-/*
-.navlink {
-  text-align: center;
-  padding: 3px 0;
-  border: none;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  background-color: #0094B6;
-  width: 30%;
-  height: 10%;
-  font-size: 1em;
-  color: white;
-  background-color: #134349;
-  text-decoration: none;
-}
-
-
-.navlink:hover {
-  background-color: #BE004F;
-}*/
-
 .navbar {
   background-color: #189CBC;
   border-radius: 0;
@@ -116,4 +78,33 @@ Liens*/
 
 .navbar .navbar-collapse {
   text-align: center;
+}
+
+#commentCaMarcheHaut p, li {
+  font-size:1.5em;
+  font-family: 'Raleway', sans-serif;
+  text-align: justify;
+}
+
+#commentCaMarcheBas p {
+  font-size:1.5em;
+  font-family: 'Raleway', sans-serif;
+  text-align: justify;
+}
+
+#commentCaMarcheBas img {
+  width: 90%;
+}
+
+#imgFin
+{
+  vertical-align: bottom;
+}
+
+#dynamisme {
+  font-weight: bold;
+}
+
+#ensemble {
+  color: #e65151;
 }

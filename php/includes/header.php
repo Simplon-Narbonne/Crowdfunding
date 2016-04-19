@@ -39,7 +39,7 @@
       <div id="navbar" class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
         <li><a href="../index.php">LES PROJETS A FINANCER</a></li>
-        <li><a href="aPropos.php">LE CROWDFUNDING : COMMENT CA MARCHE ?</a></li>
+        <li><a href="commentCaMarche.php">LE CROWDFUNDING : COMMENT CA MARCHE ?</a></li>
         <li><a href="projet.php">ENVIE D'ENTREPRENDRE</a></li>
       </ul>
     </div><!--/.nav-collapse -->

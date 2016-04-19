@@ -1,48 +1,7 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>A propos</title>
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="../../assets/css/bootstrap/css/bootstrap.css"/>
-    <link rel="stylesheet" href="../../assets/css/normalize.css" type="text/css"/>
-    <link rel="stylesheet" href="../../assets/css/style.css" type="text/css"/>
-    <link rel="stylesheet" href="../../assets/css/stylealternatif.css" type="text/css"/>
-​
-  <body>
+<?php
+  include("../includes/header.php");
+?>
 
-    <header>
-      <nav>
-        <div class='elementposition'>
-          <img src='../../assets/images/logo-grand-narbonne.png' alt='Logo Le Grand Narbonne'/>
-          <h1>Crowd-<span class='F'>F</span><span class='U'>U</span><span class='N'>N</span>-Ding</h1>
-        </div>
-        <div class='elementposition'>
-            <a href='#' class='navlink'>ACCUEIL</a>
-            <a href='projet.php' class='navlink'>PROJET D ICI</a>
-            <a href='aPropos.php' class='navlink'>A PROPOS</a>
-        </div>
-      </nav>
-    </header>";
-<!--
-    <header>
-      <img src= "../../assets/images/soleil1.jpg" id ="ciel"/>
-      <img src="../../assets/images/logo-grand-narbonne.png" id="logo"/>
-      <div id ="titre">
-        <h1>Crowd-<span id="F">F</span><span id= "U">U</span><span id="N">N</span>-Ding</h1>
-      </div>
-    </header>
-
-    <div id="menu" class="row">
-      <nav>
-          <ul class="nav nav-pills nav-justified">
-              <li ><a href="#" id = "accueil">ACCUEIL</a></li>
-              <li><a href="projet.php" id = "projet">PROJET D'ICI</a></li>
-              <li><a href="aPropos.php" id = "apropos">A PROPOS</a></li>
-          </ul>
-      </nav>
-    </div>
--->
 
     <div id="contenu" class="row">
         <div class="col-md-9 col-centered">
