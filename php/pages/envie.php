@@ -16,7 +16,7 @@
  <!-- BODY -->
  <div class="container">
     <div class="row">
-       <div class="col-lg-10 col-centered" >
+       <div class="col-lg-12 col-centered" >
           <div class="row">
              <div class="col-lg-12 vertical_center col-centered">
                 <div class="titre_page">LE PARCOURS DU CREATEUR D'ENTREPRISE
@@ -58,7 +58,7 @@
                       <!-- [FIN] Nom + Description -->
                       <!-- [DEBUT] Contact entreprise GRAND NARBONNE-->
                       <div class="col-lg-5 table-cell">
-                         <p class="tel_entreprise">Tél 04 11 23 22 00</p>
+                         <p class="tel_entreprise">Tél : 04 11 23 22 00</p>
                          <a class="mail_entreprise" href="mailto:contact@iness-legrandnarbone.com">contact@iness-legrandnarbone.com</a>
                       </div>
                       <!-- [FIN] Contact entreprise GRAND NARBONNE -->
@@ -104,7 +104,7 @@
                       <!-- [FIN] Nom + Description -->
                       <!-- [DEBUT] Contact entreprise POLE EMPLOI -->
                       <div class="col-lg-5 table-cell">
-                         <p class="tel_entreprise">Tél 39 49</p>
+                         <p class="tel_entreprise">Tél : 39 49</p>
                          <a class="mail_entreprise" href="www.pole-emploi.fr">www.pole-emploi.fr</a>
                       </div>
                       <!-- [FIN] Contact entreprise POLE EMPLOI -->
@@ -147,7 +147,7 @@
                    <!-- [FIN] Nom + Description -->
                    <!-- [DEBUT] Contact entreprise -->
                    <div class="col-lg-5 table-cell" >
-                      <p class="tel_entreprise">Tél 04 11 23 22 73</p>
+                      <p class="tel_entreprise">Tél : 04 11 23 22 73</p>
                       <a class="mail_entreprise" href="mailto:melanie.barge@citeslab.fr">melanie.barge@citeslab.fr</a>
                    </div>
                    <!-- [FIN] Contact entreprise -->
@@ -187,7 +187,7 @@
                    </div>
                    <!-- [DEBUT] Contact entreprise Chambre de Commerce et d’Industrie de Narbonne -->
                    <div class="col-lg-5 table-cell">
-                      <p class="tel_entreprise">Tél 04 68 42 71 11</p>
+                      <p class="tel_entreprise">Tél : 04 68 42 71 11</p>
                       <a class="mail_entreprise" href="mailto:entreprendre@narbonne.cci.fr">entreprendre@narbonne.cci.fr</a>
                    </div>
                    <!-- [FIN] Contact entreprise Chambre de Commerce et d’Industrie de Narbonne -->
@@ -233,7 +233,7 @@
                    <!-- [FIN] Nom + Description -->
                    <!-- [DEBUT] Contact entreprise  Chambre d’Agriculture de l’Aude-->
                    <div class="col-lg-5 table-cell">
-                      <p class="tel_entreprise">Tél 04 68 11 20 00 </p>
+                      <p class="tel_entreprise">Tél : 04 68 11 20 00 </p>
                       <a class="mail_entreprise" href="marie.taudou@aude.chambagri.fr">marie.taudou@aude.chambagri.fr</a>
                    </div>
                    <!-- [FIN] Contact entreprise Chambre d’Agriculture de l’Aude -->
@@ -279,7 +279,7 @@
                    <!-- [FIN] Nom + Description -->
                    <!-- [DEBUT] Contact entreprise POLE EMPLOI -->
                    <div class="col-lg-5 table-cell">
-                      <p class="tel_entreprise">Tél 39 49</p>
+                      <p class="tel_entreprise">Tél : 39 49</p>
                       <a class="mail_entreprise" href="www.pole-emploi.fr">www.pole-emploi.fr</a>
                    </div>
                    <!-- [FIN] Contact entreprise POLE EMPLOI -->
@@ -343,7 +343,7 @@
                    <!-- [FIN] NUCLEUM Couveuse Pépinière d’Entreprises -->
                    <!-- [DEBUT] Contact entreprise NUCLEUM Couveuse Pépinière d’Entreprises -->
                    <div class="col-lg-5 table-cell">
-                      <p class="tel_entreprise">Tél 04 11 23 22 30</p>
+                      <p class="tel_entreprise">Tél : 04 11 23 22 30</p>
                       <a class="mail_entreprise" href="mailto:nucleum.couveuse@orange.fr">nucleum.couveuse@orange.fr</a>
                    </div>
                    <!-- [FIN] Contact entreprise NUCLEUM Couveuse Pépinière d’Entreprises -->
@@ -388,7 +388,7 @@
                    <!-- [FIN] Nom + Description -->
                    <!-- [DEBUT] Contact entreprise VIVELA -->
                    <div class="col-lg-5 table-cell">
-                      <p class="tel_entreprise">Tél 04 68 35 51 04</p>
+                      <p class="tel_entreprise">Tél : 04 68 35 51 04</p>
                       <a class="mail_entreprise" href="mailto:j.imbert@perspectives.coop">j.imbert@perspectives.coop</a>
                    </div>
                    <!-- [FIN] Contact entreprise VIVELA -->
@@ -429,7 +429,7 @@
                    <!-- [FIN] EOLE - Pépinière Hôtel d’Entreprises -->
                    <!-- [DEBUT] Contact entreprise ADIE -->
                    <div class="col-lg-5 table-cell">
-                      <p class="tel_entreprise">Tél 06 34 56 17 13</p>
+                      <p class="tel_entreprise">Tél : 06 34 56 17 13</p>
                       <a class="mail_entreprise" href="mailto:gingold@adie.org">gingold@adie.org</a>
                    </div>
                    <!-- [FIN] Contact entreprise ADIE -->
@@ -475,7 +475,7 @@
                    <!-- [FIN] NUCLEUM Couveuse Pépinière d’Entreprises -->
                    <!-- [DEBUT] Contact entreprise NUCLEUM Couveuse Pépinière d’Entreprises -->
                    <div class="col-lg-5 table-cell">
-                      <p class="tel_entreprise">Tél 04 11 23 22 30</p>
+                      <p class="tel_entreprise">Tél : 04 11 23 22 30</p>
                       <a class="mail_entreprise" href="mailto:nucleum.pepiniere@orange.fr">nucleum.pepiniere@orange.fr</a>
                    </div>
                    <!-- [FIN] Contact entreprise NUCLEUM Couveuse Pépinière d’Entreprises -->
@@ -514,7 +514,7 @@
                    <!-- [FIN] Nom + Description -->
                    <!-- [DEBUT] Contact entreprise ADIE -->
                    <div class="col-lg-5">
-                      <p class="tel_entreprise">Tél 06 34 56 17 13</p>
+                      <p class="tel_entreprise">Tél : 06 34 56 17 13</p>
                       <a class="mail_entreprise" href="mailto:gingold@adie.org">gingold@adie.org</a>
                    </div>
                    <!-- [FIN] Contact entreprise ADIE -->
@@ -560,7 +560,7 @@
                 <!-- [FIN] Nom + Description -->
                 <!-- [DEBUT] Contact Initiative Narbonne Arrondissement -->
                 <div class="col-lg-5 table-cell">
-                   <p class="tel_entreprise">Tél 04 68 42 71 05</p>
+                   <p class="tel_entreprise">Tél : 04 68 42 71 05</p>
                    <a class="mail_entreprise" href="mailto:initiative@narbonne.cci.fr">ch.experts.comptables.narbonne@gmail.com</a>
                 </div>
                 <!-- [FIN] Contact Initiative Narbonne Arrondissement -->
@@ -600,7 +600,7 @@
                 <!-- [FIN] Nom + Description -->
                 <!-- [DEBUT] Contact entreprise Chambre des Experts Comptables du Narbonnais -->
                 <div class="col-lg-5 table-cell">
-                   <p class="tel_entreprise">Tél 04 68 41 62 62</p>
+                   <p class="tel_entreprise">Tél : 04 68 41 62 62</p>
                    <a class="mail_entreprise" href="mailto:ch.experts.comptables.narbonne@gmail.com">ch.experts.comptables.narbonne@gmail.com</a>
                 </div>
                 <!-- [FIN] Contact entreprise Chambre des Experts Comptables du Narbonnais -->
@@ -648,7 +648,7 @@
                 <!-- [DEBUT] AGEA Chambre professionnelle des Agents Généraux
                    d’assurance de Narbonne - Lézignan  -->
                 <div class="col-lg-5 table-cell">
-                   <p class="tel_entreprise">Tél 04 68 41 13 00</p>
+                   <p class="tel_entreprise">Tél : 04 68 41 13 00</p>
                    <a class="mail_entreprise" href="mailto:triat@agents.allianz.fr">triat@agents.allianz.fr</a>
                 </div>
                 <!-- [FIN] AGEA Chambre professionnelle des Agents Généraux

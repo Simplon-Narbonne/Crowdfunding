@@ -232,6 +232,7 @@ padding :  15px 5px 0px 5px ;
 .nom_entreprise{
   font-size:0.8em;
   font-family: 'Raleway', sans-serif;
+
 }
 
 .vertical_center{
@@ -242,17 +243,20 @@ padding :  15px 5px 0px 5px ;
 .adresse_entreprise{
   font-size:0.8em;
   font-family: 'Raleway', sans-serif;
+
 }
 
 .tel_entreprise{
   font-size:0.8em;
   font-family: 'Raleway', sans-serif;
+
 }
 
 .mail_entreprise{
   font-size:0.8em;
   font-family: 'Raleway', sans-serif;
   color:#AD0563;
+
 }
 
 .mail_entreprise:hover{
