@@ -10,9 +10,8 @@
     <link rel="stylesheet" href="../../assets/css/stylealternatif.css" type="text/css"/>
 ​
   <body>
-
     <header>
-      <img class='img-responsive' src='../../assets/images/logo/Visuel-principal-png.png'/> 
+      <img class='img-responsive' src='../../assets/images/logo/Visuel-principal-png.png'/>
    <nav class="navbar navbar-inverse">
       <div class="container">
         <div class="navbar-header">
@@ -32,8 +31,6 @@
     </div><!--/.nav-collapse -->
   </div>
 </nav>
-
-
     </header>"
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="../../assets/script/jquery/jquery-2-2-2.js"></script>
  <script src="../../assets/css/bootstrap/js/bootstrap.min.js"></script>

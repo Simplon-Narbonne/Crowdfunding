@@ -662,7 +662,7 @@
     </div>
   </div>
 </div>
-
+</body>
 
  <!-- FOOTER -->
  <?php
