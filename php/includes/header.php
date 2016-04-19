@@ -12,7 +12,7 @@
   <body>
 
     <header>
-      <img class='img-responsive' src='../../assets/images/Visuel-principal-png.png'/> 
+      <img class='img-responsive' src='../../assets/images/logo/Visuel-principal-png.png'/> 
       <!--<nav class='elementposition'>
         <a href='#' class='navlink'>LES PROJETS A FINANCER</a>
         <a href='projet.php' class='navlink'>LE CROWDFUNDING : COMMENT CA MARCHE ?</a>
