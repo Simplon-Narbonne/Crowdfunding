@@ -13,19 +13,6 @@
 
     <header>
       <img class='img-responsive' src='../../assets/images/logo/Visuel-principal-png.png'/> 
-      <!--<nav class='elementposition'>
-        <a href='#' class='navlink'>LES PROJETS A FINANCER</a>
-        <a href='projet.php' class='navlink'>LE CROWDFUNDING : COMMENT CA MARCHE ?</a>
-        <a href='aPropos.php' class='navlink'>ENVIE D'ENTREPRENDRE</a>
-      </nav>-->
-    <!--<nav>
-         <ul class="nav nav-pills nav-justified" id="menu">
-             <li ><a href="#" id = "accueil">LES PROJET A FINANCER</a></li>
-             <li><a href="#" id = "projet">LE CROWDFUNDING : COMMENT CA MARCHE ? </a></li>
-             <li><a href="#" id = "apropos">ENVIE D'ENTREPRENDRE</a></li>
-         </ul>
-     </nav>-->
-
    <nav class="navbar navbar-inverse">
       <div class="container">
         <div class="navbar-header">
@@ -40,7 +27,7 @@
       <ul class="nav navbar-nav">
         <li><a href="../index.php">LES PROJETS A FINANCER</a></li>
         <li><a href="commentCaMarche.php">LE CROWDFUNDING : COMMENT CA MARCHE ?</a></li>
-        <li><a href="projet.php">ENVIE D'ENTREPRENDRE</a></li>
+        <li><a href="envie.php">ENVIE D'ENTREPRENDRE</a></li>
       </ul>
     </div><!--/.nav-collapse -->
   </div>
