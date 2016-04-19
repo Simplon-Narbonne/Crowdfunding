@@ -205,8 +205,24 @@ padding :  15px 5px 0px 5px ;
   font-weight: bold;
 }
 
+.ombre_rubrique{
+  border:1px solid #f6f6f6 ;
+  box-shadow:8px 4px 4px #CCC ;
+  border-radius:10px ;
+  margin:10px ;
+  padding:10px;
+}
+
+.ombre_imgRubrique{
+  border:1px solid #f6f6f6 ;
+  box-shadow:8px 4px 4px #CCC ;
+  border-radius:10px ;
+}
+
 .img_rubrique{
   width:100%;
+  top:50%;
+  position: relative;
 }
 
 .img_entreprise{
@@ -219,8 +235,8 @@ padding :  15px 5px 0px 5px ;
 }
 
 .vertical_center{
-  padding-top :30px;
-  padding-bottom :30px;
+  padding-top :15px;
+  padding-bottom :15px;
 }
 
 .adresse_entreprise{
@@ -236,7 +252,7 @@ padding :  15px 5px 0px 5px ;
 .mail_entreprise{
   font-size:0.8em;
   font-family: 'Raleway', sans-serif;
-  color:#ad0563;
+  color:#AD0563;
 }
 
 .mail_entreprise:hover{
