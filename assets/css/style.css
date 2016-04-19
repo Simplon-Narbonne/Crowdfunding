@@ -188,8 +188,29 @@ padding :  15px 5px 0px 5px ;
   padding-top: 40px;
 }
 
-  .img_entreprise{
-width:100px;
+.titre_page {
+  text-align: center;
+  color:#e65151;
+  font-size: 25px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  margin:10px;
+  padding:10px;
+}
+
+.titre_rubrique{
+  color:#ad0563;
+  font-family: 'Raleway', sans-serif;
+  font-size:15px;
+  font-weight: bold;
+}
+
+.img_rubrique{
+  width:100%;
+}
+
+.img_entreprise{
+    width:100px;
 }
 
 .nom_entreprise{
@@ -215,5 +236,9 @@ width:100px;
 .mail_entreprise{
   font-size:0.8em;
   font-family: 'Raleway', sans-serif;
+  color:#ad0563;
+}
 
+.mail_entreprise:hover{
+  text-decoration:none;
 }
