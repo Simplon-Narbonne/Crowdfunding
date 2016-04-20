@@ -4,7 +4,7 @@
   		<img src='../../assets/images/logo/Visuel-principal-element-logo-grand-narbonne.png' id='logoNarbonne' class='img-responsive'/>
 	</div>
 	<div class='col-lg-4'>
-		<p class='text-center'><a href="#">Contact</a> - <a href="#">Mentions légales</a> - <a href="#">A propos</a></p>
+		<p class='text-center'><a href="../pages/contact.php">Contact</a> - <a href="../pages/mentions-legales.php">Mentions légales</a> - <a href="../pages/a-propos.php">A propos</a></p>
 	</div>
 	<div class='col-lg-4'>
 	 	<img src='../../assets/images/logo/Footer-logo-simplon.png' id='logoSimplon' class='img-responsive'/>

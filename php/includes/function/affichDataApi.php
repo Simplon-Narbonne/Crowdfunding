@@ -10,7 +10,7 @@ function infoProjet($nProjet, $properName, $chaine){
         echo "Pas de description";
       }
       else{
-      $transPhp = substr($objProj->description_fr, 0, 200);
+      $transPhp = substr($objProj->description_fr, 0, 100);
       $retraitBalise = strip_tags($transPhp).$chaine;
       echo $retraitBalise;
       }
@@ -26,7 +26,7 @@ function infoProjet($nProjet, $properName, $chaine){
         break;
     case 'time_left':
       if ($objProj->time_left == "" || $objProj->time_left == " "){
-        echo "Récolte terminée !";
+        echo "Financé !";
       }
       else {
         echo $objProj->time_left_short;

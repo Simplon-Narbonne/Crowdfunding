@@ -3,7 +3,6 @@
   <head>
     <meta charset="utf-8">
     <title>Les projets à financer</title>
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="assets/css/bootstrap/css/bootstrap.css"/>
     <link rel="stylesheet" href="assets/css/normalize.css" type="text/css"/>
     <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
@@ -47,64 +46,99 @@
 
 
 <!-- HEADER STATIQUE FIN -->
-
+<div class='container'>
+<div class='row'>
+  <div class='col-lg-12 col-centered classeprojet'>
+    <div class="titre_page ">SOUTENEZ UN PROJET</div>
+        <div class="row">
 
 <!-- GENERATEUR DE PROJET  -->
 <?php
+$j=0;
 for ($i=0; $i<13; $i++) {
 echo "
-<div class='row classeprojet'>
-  <div class='col-md-9 col-centered'>
+          <div class='col-lg-4'>
 
-    <div class='row'>
-        <div class='col-md-6'>
-            <div class='carrontop'>
-              <h4>";
-              infoProjet($i, "name_fr", "</h4>");
-              echo "
-            </div>
-        </div>
-    </div>
-
-    <div class='row'>
-      <div class='col-md-6 colonneprojet' >
-        <div class='jaune'>
-          <img src='";
-          infoProjet($i, "image", "'");
-          echo "class='img-responsive'>
             <div class='row'>
-              <div class='col-md-9 '>
-                <h5>"; infoProjet($i, "owner->first_name", "");
-                echo "</h5>
-                  <p>"; infoProjet($i, "description_fr", "[...]");
-                  echo "
-                  <a href ='"; infoProjet($i, "absolute_url", "");
-                  echo "'>Lire la suite</a></p>
-                  <p>"; infoProjet($i, "time_left", "");
-                  echo "</p>
-              </div>
-            <div class='col-md-3 chiffres'>
-              <p>"; infoProjet($i, "amount_raised", "€");
-              echo "</p>
-              <p>"; infoProjet($i, "goal", "€");
-              echo "</p>
-              <p>"; infoProjet($i, "percent", "%");
-              echo "</p>
-              <div>
-                <a href ='"; infoProjet($i, "absolute_url", "'>");
-                echo"
-                  <button type='button' class='btn btn-primary participez'>Participez</button></a>
+              <div class='col-lg-12 background-projet'>
+
+                <div class='row'>
+                  <div class='col-lg-12 carrontop'>
+                      <h4>";
+                        infoProjet($i, "name_fr", "</h4>");
+                    echo "
+                  </div>
+                </div>
+
+                <div class='row'>
+                  <div class='col-lg-12'>
+                      <img src='";
+                      infoProjet($i, "image", "'");
+                      echo "class='img-responsive img-projet'>
+                  </div>
+                </div>
+
+                <div class='row'>
+                  <div class='col-lg-12 '>
+                    <h5>"; infoProjet($i, "owner->first_name", "");
+              echo "</h5>
+                      <p class='description'>"; infoProjet($i, "description_fr", "[...]");
+                        echo "
+                      <a href ='"; infoProjet($i, "absolute_url", "");
+              echo "'>Lire la suite
+                      </a>
+                      </p>
+                  </div>
+                </div>
+
+                <!-- MONTANT A ATTEINDRE - DUREE RESTANTE -->
+                <div class='row'>
+                  <div class='col-lg-12 '>
+                    <div class='row'>
+                      <div class='col-lg-6'> "; infoProjet($i, "goal", "€");
+                echo "</div>
+                      <div class='col-lg-6'>"; infoProjet($i, "time_left", "");
+                echo "</div>
+                    </div>
+                  </div>
+                </div>";
+
+              /* POURCENTAGE [DEBUT] */
+          echo "<div class='row'>
+                  <div class='col-lg-12'>
+                    <div class='row'>
+                      <div class='col-lg-6'>
+                "; infoProjet($i, "percent", "%");
+                echo "</div>
+                    </div>
+                  </div>
+                </div>
+                <!-- POURCENTAGE [FIN] -->
+
+                <div class='row'>
+                  <div class='col-lg-12'>
+                    <a href ='"; infoProjet($i, "absolute_url", "'>");
+              echo "<button type='button' class='btn btn-primary'>Participez
+                    </button>
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-</div>";
+          </div>";
+    $j++;
+    if ($j%3 ==0){
+      echo "</div>
+      <div class='row'>";
+    }
   }
+
 ?>
 <!-- GENERATEUR DE PROJET FIN -->
+    </div>
+  </div>
+</div>
+</div>
 
 <!-- FOOTER -->
 <footer>
@@ -113,12 +147,13 @@ echo "
   		<img src='assets/images/logo/Visuel-principal-element-logo-grand-narbonne.png' id='logoNarbonne' class='img-responsive'/>
 	</div>
 	<div class='col-lg-4'>
-		<p class='text-center'><a href="#">Contact</a> - <a href="#">Mentions légales</a> - <a href="#">A propos</a></p>
+		<p class='text-center'><a href="php/pages/contact.php">Contact</a> - <a href="php/pages/mentions-legales.php">Mentions légales</a> - <a href="php/pages/a-propos.php">A propos</a></p>
 	</div>
 	<div class='col-lg-4'>
 	 	<img src='assets/images/logo/Footer-logo-simplon.png' id='logoSimplon' class='img-responsive'/>
 	</div>
 </div>
+
 
 <div class='row'>
 	<div class='col-lg-4'>

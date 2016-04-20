@@ -11,7 +11,9 @@
     <div id="contenu" class="row">
         <div class="col-md-9 col-centered">
           <p id="texteapropos" >Le grand Narbonne favorise les projets du territoire .....................et  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-          <button type="button" class="btn btn-primary" id="boutonacces">Accès au site du Grand Narbonne</button>
+          <a target="_blank" href="http://www.legrandnarbonne.com/">
+            <button type="button" class="btn btn-primary" id="boutonacces">Accès au site du Grand Narbonne</button>
+          </a>
         </div>
     </div>
 
@@ -21,7 +23,7 @@
             <hr>
             <div class="row crew">
                 <div class="col-md-4">
-                  <img src="../../assets/images/phil.jpg" class="img-responsive"/>
+                  <img src="../../assets/images/team/phil.jpg" class="img-responsive"/>
                   <h3>Philou Bisou</h3>
                   <hr>
                   <p>Il est ...</p>
@@ -29,14 +31,14 @@
                   Un Killer</p>
                 </div>
                 <div class="col-md-4">
-                  <img src="../../assets/images/julie.jpg" class="img-responsive"/>
+                  <img src="../../assets/images/team/julie.jpg" class="img-responsive"/>
                   <h3>Youuly</h3>
                   <hr>
                   <p>Elle est ...</p>
                   <p>Boosteuse de projets, référente wix, May Youuly be in your team</p>
                 </div>
                 <div class="col-md-4">
-                  <img src="../../assets/images/catherine.jpg" class="img-responsive"/>
+                  <img src="../../assets/images/team/catherine.jpg" class="img-responsive"/>
                   <h3>Dame Carcas</h3>
                   <hr>
                   <p>Elle est ...</p>
