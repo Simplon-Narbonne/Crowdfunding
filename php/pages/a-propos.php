@@ -46,13 +46,7 @@
         </div>
     </div>
 
-    <footer class="row">
-    <div class ="col-md-9 col-centered">
-    <div id="copyright"><p>©2016 propulsé par Zinzinprod</p></div>
-    <img src="../../assets/images/facebook.png" id= "fb"/>
-    <img src="../../assets/images/twitter.png" id="twitter"/>
-    </div>
-    </footer>
+<?php include('../includes/footer.php') ?>
 
   </body>
 </html>
