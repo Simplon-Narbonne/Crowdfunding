@@ -1,3 +1,8 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Comment ça marche</title>
 <?php
 	include("../includes/header.php")
 ?>
