@@ -2,17 +2,15 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Projets Narbonnais</title>
+    <title>Les projets à financer</title>
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="../../assets/css/bootstrap/css/bootstrap.css"/>
-    <link rel="stylesheet" href="../../assets/css/normalize.css" type="text/css"/>
-    <link rel="stylesheet" href="../../assets/css/style.css" type="text/css"/>
-    <link rel="stylesheet" href="../../assets/css/stylealternatif.css" type="text/css"/>
+    <link rel="stylesheet" href="assets/css/bootstrap/css/bootstrap.css"/>
+    <link rel="stylesheet" href="assets/css/normalize.css" type="text/css"/>
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
+    <link rel="stylesheet" href="assets/css/stylealternatif.css" type="text/css"/>
   </head>
 
-​<?php
-include('../includes/connexionApi.php');
-?>
+​<?php include('php/includes/connexionApi.php');?>
 
 <?php
 // OBJET QUI CONTIENT TOUTES LES DONNEES
@@ -20,43 +18,36 @@ include('../includes/connexionApi.php');
 ?>
 
 <!-- FUNCTION POUR AFFICHER UNE DONNEE PRECISE -->
-<?php include('../includes/function/affichDataApi.php'); ?>
+<?php include('php/includes/function/affichDataApi.php'); ?>
 <!-- FUNCTION FIN -->
 
-<!-- HEADER STATIQUE -->
-<?php
-// BANNIERE
-  echo "
   <body>
-  <header>
-    <nav>
-      <div class='elementposition'>
-        <img src='../../assets/images/logo-grand-narbonne.png' alt='Logo Le Grand Narbonne'/>
-        <h1>Crowd-<span class='F'>F</span><span class='U'>U</span><span class='N'>N</span>-Ding</h1>
-      </div>
-      <div class='elementposition'>
-          <a href='#' class='navlink'>ACCUEIL</a>
-          <a href='projet.php' class='navlink'>PROJET D ICI</a>
-          <a href='aPropos.php' class='navlink'>A PROPOS</a>
-      </div>
-    </nav>
-  </header>";
-// BANNIERE FIN
+    <header>
+      <img class='img-responsive' src='assets/images/logo/Visuel-principal-png.png'/>
+       <nav class="navbar navbar-inverse">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              </button>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="index.php">LES PROJETS A FINANCER</a></li>
+                <li><a href="php/pages/comment-ca-marche.php">LE CROWDFUNDING : COMMENT CA MARCHE ?</a></li>
+                <li><a href="php/pages/envie-entreprendre.php">ENVIE D'ENTREPRENDRE</a></li>
+              </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </nav>
+    </header>
 
-// NAVBAR
-// echo
-//     <div id='menu' class='row'>
-//       <nav>
-//           <ul class='nav nav-pills nav-justified'>
-//               <li ><a href='index.html' id = 'accueil'>ACCUEIL</a></li>
-//               <li><a href='#' id = 'projet'>PROJET D'ICI</a></li>
-//               <li><a href='apropos.html' id = 'apropos'>A PROPOS</a></li>
-//           </ul>
-//       </nav>
-//     </div>";
-// // NAVBAR FIN
-?>
+
 <!-- HEADER STATIQUE FIN -->
+
 
 <!-- GENERATEUR DE PROJET  -->
 <?php
@@ -115,15 +106,18 @@ echo "
 ?>
 <!-- GENERATEUR DE PROJET FIN -->
 
-
-<!-- PARTENAIRES -->
-<?php include('../includes/partenaires.php'); ?>
-<!-- PARTENAIRES FIN -->
-
-
 <!-- FOOTER -->
-<?php include('../includes/footer.php'); ?>
-<!-- FOOTER FIN -->
-
-  </body>
+  <footer class='row'>
+    <div class ='col-md-9 col-centered'>
+      <div id='copyright'>
+        <p>©2016 propulsé par Zinzinprod</p>
+      </div>
+      <img src='assets/images/facebook.png' id= 'fb'/>
+      <img src='assets/images/twitter.png' id= 'twitter'/>
+    </div>
+  </footer>
+  <script src="assets/script/jquery/jquery-2-2-2.js"></script>
+  <script src="assets/css/bootstrap/js/bootstrap.min.js"></script>
+</body>
 </html>
+<!-- FOOTER FIN -->

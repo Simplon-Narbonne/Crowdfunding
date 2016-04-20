@@ -1,6 +1,16 @@
-<?php
-  include("../includes/header.php");
-?>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Crowdfunding</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="../../assets/css/bootstrap/css/bootstrap.css"/>
+    <link rel="stylesheet" href="../../assets/css/normalize.css" type="text/css"/>
+    <link rel="stylesheet" href="../../assets/css/style.css" type="text/css"/>
+    <link rel="stylesheet" href="../../assets/css/stylealternatif.css" type="text/css"/>
+  </head>
+
+  <?php include("../includes/header.php");?>
 
 
     <div id="contenu" class="row">
