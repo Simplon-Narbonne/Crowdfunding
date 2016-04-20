@@ -3,7 +3,7 @@
 ?>
 
 <div class="row">
-	<div class="col-lg-10 col-centered">
+	<div class="col-lg-9 col-centered">
 		<div class="row">
 			<div class="col-lg-12" id="commentCaMarcheHaut">
 				<div class="titre_page">Le Crowdfunding ou l’économie du partage</div>
@@ -22,18 +22,18 @@
 			</div>
 		</div>
 		<div class="row" id="commentCaMarcheBas">
-			<div class="col-lg-2">
+			<div class="col-lg-2 col-md-2">
 				<img src="../../assets/images/logo/LAMY_TRISTAN_2014.jpg"/>
 			</div>
-			<div class="col-lg-1">
+			<div class="col-lg-1 col-md-1">
 				<img src="../../assets/images/logo/Elements-debut-de-la-citation.png" id="imgDebut"/>
 			</div>
-			<div class="col-lg-8">
+			<div class="col-lg-8 col-md-8">
 				<p>Grâce au crowdfunding, chacun(e) d’entre nous peut devenir acteur de l’économie locale en soutenant les projets du territoire. Le Grand Narbonne, en partenariat avec BPI France, lance la plateforme web «Crowdfunding en Grand Narbonne» pour permettre de réussir le financement de vos projets.</p><br/>
 				<p id="dynamisme">Le dynamisme économique de notre territoire est l’affaire de tous.<br/>
 				<span id="ensemble">Ensemble, developpons et dynamisons les initiatives locales !</span>
 			</div>
-			<div class="col-lg-1">
+			<div class="col-lg-1 col-md-1">
 				<img src="../../assets/images/logo/Elements-fin-de-la-citation.png" id="imgFin"/>
 			</div>
 		</div>
