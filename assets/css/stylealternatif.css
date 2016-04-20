@@ -22,13 +22,6 @@ body{
 
 /*-- Nav --*/
 
-.elementposition {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding-top: 0px;
-}
-
 /*Titre*/
 h1 {
   color: white;
@@ -107,4 +100,33 @@ header a {
 
 #ensemble {
   color: #e65151;
+}
+
+footer {
+  background-color: #189cbc;
+  height: 200px;
+  margin-top: 20px;
+}
+
+footer img {
+  width: 40%;
+}
+
+footer p {
+    padding-top: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.1em;
+    color: white;
+}
+
+#logoSimplon {
+  width: 50%;
+}
+
+#logoNarbonne {
+  float: left;
+}
+
+#logoBPI {
+  margin: 0 auto;
 }
