@@ -20,9 +20,9 @@
         </div>
       <div id="navbar" class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
-        <li><a href="../index.php">LES PROJETS A FINANCER</a></li>
-        <li><a href="commentCaMarche.php">LE CROWDFUNDING : COMMENT CA MARCHE ?</a></li>
-        <li><a href="envie.php">ENVIE D'ENTREPRENDRE</a></li>
+        <li><a href="../../index.php">LES PROJETS A FINANCER</a></li>
+        <li><a href="comment-ca-marche.php">LE CROWDFUNDING : COMMENT CA MARCHE ?</a></li>
+        <li><a href="envie-entreprendre.php">ENVIE D'ENTREPRENDRE</a></li>
       </ul>
     </div><!--/.nav-collapse -->
   </div>
