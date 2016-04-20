@@ -139,3 +139,7 @@ footer p {
 footer a:visited {
   color: white;
 }
+
+footer a:link {
+  color: white;
+}
