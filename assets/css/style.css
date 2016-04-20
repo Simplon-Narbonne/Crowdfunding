@@ -170,17 +170,6 @@ text-align: center;
   height: 100%;
 }
 
-footer {
-  height: 70px;
-  background-color: #103F54;
-}
-
-footer img {
-float : right;
-width: 5% ;
-padding :  15px 5px 0px 5px ;
-}
-
 #copyright p {
   float: left;
   color : white;
