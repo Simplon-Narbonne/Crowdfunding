@@ -56,7 +56,7 @@
 $j=0;
 for ($i=0; $i<13; $i++) {
 echo "
-          <div class='col-lg-4'>
+          <div class='col-lg-4 '>
 
             <div class='row'>
               <div class='col-lg-12 background-projet'>
@@ -74,7 +74,7 @@ echo "
 
                 <!-- IMAGE PROJET [DEBUT] -->
                 <div class='row'>
-                  <div class='col-lg-12'>
+                  <div class='col-lg-12 contour-img-projet'>
                       <img src='";
                       infoProjet($i, "image", "'");
                       echo "class='img-responsive img-projet'>
@@ -91,8 +91,7 @@ echo "
                       <p class='description'>"; infoProjet($i, "description_fr", "[...]");
                         echo "
                       <a target='_blank' href ='"; infoProjet($i, "absolute_url", "'");
-              echo ">Lire la suite
-                      </a>
+              echo ">Lire la suite</a>
                       </p>
                   </div>
                 </div>
@@ -103,10 +102,16 @@ echo "
                 <div class='row'>
                   <div class='col-lg-12 '>
                     <div class='row'>
-                      <div class='col-lg-6'> "; infoProjet($i, "goal", "€");
-                echo "</div>
-                      <div class='col-lg-6'>"; infoProjet($i, "time_left", "");
-                echo "</div>
+                      <div class='col-lg-6'>
+                        <span class='goal'>"; infoProjet($i, "goal", "€");
+
+                echo "</span>
+              </div>
+                      <div class='col-lg-6'>
+                        <img class='clock' src='assets/images/logo/clock.png'/>
+                          <span class='time_left'>"; infoProjet($i, "time_left", "");
+                   echo " </span>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -121,8 +126,8 @@ echo "
                   <div class='col-lg-12'>
                     <div class='row'>
                       <div class='col-lg-6'>
-                        <div class='progress'>
-                          <div class='skill'>";
+                        <div class='progressBar'>
+                          <div class='progress'>";
                             infoProjet($i, "percent", "%");
                     echo "</div>
                         </div>
