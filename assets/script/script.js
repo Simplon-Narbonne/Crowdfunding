@@ -5,6 +5,5 @@ for (i=0; i< skill.length ; i++ ){
   if (pourcentUnit > 100){
     var pourcent = "100%";
   }
-  skill[i].style.transition = "width 5s ease-out 2s";
   skill[i].style.width = pourcent;
 }
