@@ -136,11 +136,9 @@ echo "
                 <!-- PARTICIPEZ [DEBUT] -->
                 <div class='row'>
                   <div class='col-lg-12'>
-                    <form method='POST' action='";
-                    infoProjet($i, "absolute_url", "'");
-                echo "
-                      <input type='button' value='Participez'/>
-                    </form>
+                      <input type='button' class='btn btn-primary participez' onclick='location.href=\"";
+                          infoProjet($i, "absolute_url", "\";'");
+          echo " value='Participez'/>
                   </div>
                 </div>
                 <!-- PARTICIPEZ [FIN] -->
