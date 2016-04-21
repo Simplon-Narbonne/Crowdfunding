@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Les projets à financer</title>
-    <link rel="stylesheet" href="assets/css/bootstrap/css/bootstrap.css"/>
+    <link rel="stylesheet" href="assets/css/bootstrap/css/bootstrap.css" type="text/css"/>
     <link rel="stylesheet" href="assets/css/normalize.css" type="text/css"/>
     <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
     <link rel="stylesheet" href="assets/css/stylealternatif.css" type="text/css"/>
@@ -12,7 +12,7 @@
 ​<?php include('php/includes/connexionApi.php');?>
 
 <?php
-// OBJET QUI CONTIENT TOUTES LES DONNEES
+/* OBJET QUI CONTIENT TOUTES LES DONNEES */
  $objResult = json_decode($connexion);
 ?>
 
@@ -84,8 +84,8 @@ echo "
               echo "</h5>
                       <p class='description'>"; infoProjet($i, "description_fr", "[...]");
                         echo "
-                      <a href ='"; infoProjet($i, "absolute_url", "");
-              echo "'>Lire la suite
+                      <a target='_blank' href ='"; infoProjet($i, "absolute_url", "'");
+              echo ">Lire la suite
                       </a>
                       </p>
                   </div>
@@ -108,8 +108,11 @@ echo "
                   <div class='col-lg-12'>
                     <div class='row'>
                       <div class='col-lg-6'>
-                "; infoProjet($i, "percent", "%");
-                echo "</div>
+                        <div class='progress' value='";  infoProjet($i, "percent", "' max='100'");
+                    echo ">"; infoProjet($i, "percent", "%");
+                    echo "
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -117,7 +120,7 @@ echo "
 
                 <div class='row'>
                   <div class='col-lg-12'>
-                    <a href ='"; infoProjet($i, "absolute_url", "'>");
+                    <a href ='"; infoProjet($i, "absolute_url", "' target='_blank' >");
               echo "<button type='button' class='btn btn-primary'>Participez
                     </button>
                     </a>

@@ -6,13 +6,13 @@ function infoProjet($nProjet, $properName, $chaine){
       echo ucfirst($objProj->name_fr);
       break;
     case 'description_fr':
-      if (($objProj>description_fr == "") || ($objProj->description_fr == " ")){
+      if (($objProj->description_fr == "") || ($objProj->description_fr == " ")){
         echo "Pas de description";
       }
       else{
-      $transPhp = substr($objProj->description_fr, 0, 100);
+      $transPhp = substr($objProj->description_fr, 0, 250);
       $retraitBalise = strip_tags($transPhp).$chaine;
-      echo $retraitBalise;
+      echo ucfirst($retraitBalise);
       }
         break;
     case 'owner->first_name':

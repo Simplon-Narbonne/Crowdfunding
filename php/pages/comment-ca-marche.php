@@ -3,16 +3,16 @@
   <head>
     <meta charset="utf-8">
     <title>Comment ça marche</title>
-<?php
-	include("../includes/header.php")
-?>
 
+<?php include("../includes/header.php");?>
+
+<div class="container">
 <div class="row">
-	<div class="col-lg-9 col-centered">
+	<div class="col-lg-12 col-centered">
 		<div class="row">
 			<div class="col-lg-12" id="commentCaMarcheHaut">
 				<div class="titre_page">Le Crowdfunding ou l’économie du partage</div>
-			
+
 				<p>Le financement participatif local permet aux TPE (commerce, restauration,artisanat, industrie, ESS) et aux associations de faire participer les habitants à leurs projets de création et de développement. Pour développer et dynamiser les projets sur le territoire du Grand Narbonne, toutes les campagnes de crowdfunding du territoire qui se trouve sur les différentes plateformes de crowdfunding existantes en France sont réunies sur la même plateforme web.</p><br/>
 
 				<p>Pour le Grand Narbonne, l’enjeu est de promouvoir toutes les initiatives locales : </p>
@@ -45,7 +45,6 @@
 
 	</div>
 </div>
+</div>
 
-<?php
-	include('../includes/footer.php');
-?>
+<?php include('../includes/footer.php');?>
