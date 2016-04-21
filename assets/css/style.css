@@ -231,11 +231,11 @@ h5 {
 .chiffres {
   padding-top: 20px;
   text-align: right;
-
 }
 
 .participez {
-  margin-right: 30px ;
+  margin-top:50px;
+  margin-left: 200px;
 }
 
 .bandeaupartenaire {
@@ -381,4 +381,18 @@ footer a:visited {
 
 footer a:link {
   color: white;
+}
+
+.progress {
+	height:20px;
+	position:absolute;
+  background-color: #fff;
+  margin-top:20px;
+  width:100%;
+}
+
+.skill{
+  width: 0%;
+  transition: width 5s ease-out 2s;
+  background-color: #189cbc;
 }

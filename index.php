@@ -6,7 +6,6 @@
     <link rel="stylesheet" href="assets/css/bootstrap/css/bootstrap.css" type="text/css"/>
     <link rel="stylesheet" href="assets/css/normalize.css" type="text/css"/>
     <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
-    <link rel="stylesheet" href="assets/css/stylealternatif.css" type="text/css"/>
   </head>
 
 ​<?php include('php/includes/connexionApi.php');?>
@@ -62,6 +61,7 @@ echo "
             <div class='row'>
               <div class='col-lg-12 background-projet'>
 
+                <!-- NOM PROJET [DEBUT] -->
                 <div class='row'>
                   <div class='col-lg-12 carrontop'>
                       <h4>";
@@ -69,7 +69,10 @@ echo "
                     echo "
                   </div>
                 </div>
+                <!-- NOM PROJET [FIN] -->
 
+
+                <!-- IMAGE PROJET [DEBUT] -->
                 <div class='row'>
                   <div class='col-lg-12'>
                       <img src='";
@@ -77,7 +80,10 @@ echo "
                       echo "class='img-responsive img-projet'>
                   </div>
                 </div>
+                <!-- IMAGE PROJET [FIN] -->
 
+
+                <!-- DESCRIPTION - LIRE LA SUITE [DEBUT] -->
                 <div class='row'>
                   <div class='col-lg-12 '>
                     <h5>"; infoProjet($i, "owner->first_name", "");
@@ -90,8 +96,10 @@ echo "
                       </p>
                   </div>
                 </div>
+                <!-- DESCRIPTION - LIRE LA SUITE [FIN] -->
 
-                <!-- MONTANT A ATTEINDRE - DUREE RESTANTE -->
+
+                <!-- MONTANT A ATTEINDRE - DUREE RESTANTE [DEBUT] -->
                 <div class='row'>
                   <div class='col-lg-12 '>
                     <div class='row'>
@@ -101,16 +109,22 @@ echo "
                 echo "</div>
                     </div>
                   </div>
-                </div>";
+                </div>
+                <!-- MONTANT A ATTEINDRE - DUREE RESTANTE [DEBUT] -->
 
-              /* POURCENTAGE [DEBUT] */
-          echo "<div class='row'>
+
+                ";
+
+
+          echo "<!-- POURCENTAGE [DEBUT] -->
+                <div class='row'>
                   <div class='col-lg-12'>
                     <div class='row'>
                       <div class='col-lg-6'>
-                        <div class='progress' value='";  infoProjet($i, "percent", "' max='100'");
-                    echo ">"; infoProjet($i, "percent", "%");
-                    echo "
+                        <div class='progress'>
+                          <div class='skill'>";
+                            infoProjet($i, "percent", "%");
+                    echo "</div>
                         </div>
                       </div>
                     </div>
@@ -118,14 +132,20 @@ echo "
                 </div>
                 <!-- POURCENTAGE [FIN] -->
 
+
+                <!-- PARTICIPEZ [DEBUT] -->
                 <div class='row'>
                   <div class='col-lg-12'>
-                    <a href ='"; infoProjet($i, "absolute_url", "' target='_blank' >");
-              echo "<button type='button' class='btn btn-primary'>Participez
-                    </button>
-                    </a>
+                    <form method='POST' action='";
+                    infoProjet($i, "absolute_url", "'");
+                echo "
+                      <input type='button' value='Participez'/>
+                    </form>
                   </div>
                 </div>
+                <!-- PARTICIPEZ [FIN] -->
+
+
               </div>
             </div>
           </div>";
@@ -173,6 +193,7 @@ echo "
 
 <script src="assets/script/jquery-2.2.2.js"></script>
 <script src="assets/css/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/script/script.js"></script>
 
 </body>
 </html>

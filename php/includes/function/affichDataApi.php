@@ -6,7 +6,7 @@ function infoProjet($nProjet, $properName, $chaine){
       echo ucfirst($objProj->name_fr);
       break;
     case 'description_fr':
-      if (($objProj->description_fr == "") || ($objProj->description_fr == " ")){
+      if ($objProj->description_fr == ""){
         echo "Pas de description";
       }
       else{
@@ -32,6 +32,7 @@ function infoProjet($nProjet, $properName, $chaine){
         echo $objProj->time_left_short;
       }
         break;
+
   default:
     $transPhp = "echo strip_tags(\$objProj->".$properName.").\$chaine;";
     eval($transPhp);
