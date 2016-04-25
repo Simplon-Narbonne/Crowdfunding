@@ -37,14 +37,14 @@
                         <div class="row table-row ombre_rubrique">
                            <!-- [DEBUT] Logo entreprise -->
                            <div class="col-lg-2 table-cell">
-                              <a href="http://entreprendre.legrandnarbonne.com/717-iness-des-hommes-des-projets.html">
+                              <a target="_blank" href="legrandnarbonne.com">
                               <img class="img-responsive" src="../../assets/images/logo/iness.png"/>
                               </a>
                            </div>
                            <!-- [FIN] Logo entreprise -->
                            <!-- [DEBUT] Nom + Description -->
                            <div class="col-lg-5 table-cell">
-                              <a class="nom_entreprise">IN’ESS Le Grand Narbonne</a>
+                              <a target="_blank" class="nom_entreprise" href="legrandnarbonne.com">IN’ESS Le Grand Narbonne</a>
                               <p class="adresse_entreprise">30 av Pompidor - 11100 Narbonne</p>
                            </div>
                            <!-- [FIN] Nom + Description -->
@@ -60,14 +60,14 @@
                         <div class="row table-row ombre_rubrique">
                            <!-- [DEBUT] Logo entreprise -->
                            <div class="col-lg-2 table-cell" >
-                              <a href="http://www.mljnarbonne.fr/">
+                              <a target="_blank" href="http://www.mljnarbonne.fr/">
                               <img class="img-responsive" src="../../assets/images/logo/mission-locale.png"/>
                               </a>
                            </div>
                            <!-- [FIN] Logo entreprise -->
                            <!-- [DEBUT] Nom + Description -->
                            <div class="col-lg-5 table-cell" >
-                              <a class="nom_entreprise" href="http://www.mljnarbonne.fr/">Mission Locale Jeunes du Grand Narbonne</a>
+                              <a target="_blank" class="nom_entreprise" href="http://www.mljnarbonne.fr/">Mission Locale Jeunes du Grand Narbonne</a>
                               <p class="adresse_entreprise"> 30 av Pompidor - 11100 Narbonne</p>
                               <!-- [FIN] Nom + Description -->
                            </div>
@@ -83,14 +83,14 @@
                         <div class="row table-row ombre_rubrique">
                            <!-- [DEBUT] Logo entreprise -->
                            <div class="col-lg-2 table-cell" >
-                              <a href="http://www.pole-emploi.fr/">
+                              <a target="_blank" href="http://www.pole-emploi.fr/">
                               <img class="img-responsive" src="../../assets/images/logo/pole-emploi.png"/>
                               </a>
                            </div>
                            <!-- [FIN] Logo entreprise -->
                            <!-- [DEBUT] Nom + Description -->
                            <div class="col-lg-5 table-cell" >
-                              <a class="nom_entreprise" href="www.pole-emploi.fr">Pôle Emploi</a>
+                              <a target="_blank" class="nom_entreprise" href="www.pole-emploi.fr">Pôle Emploi</a>
                               <p class="adresse_entreprise"> 100 rue Antoine Becquerel - 11100 Narbonne</p>
                            </div>
                            <!-- [FIN] Nom + Description -->
@@ -126,14 +126,14 @@
                      <div class="row table-row ombre_rubrique">
                         <!-- [DEBUT] Logo entreprise -->
                         <div class="col-lg-2 table-cell ">
-                           <a href="http://entreprendre.legrandnarbonne.com/717-iness-des-hommes-des-projets.html">
+                           <a target="_blank" href="http://entreprendre.legrandnarbonne.com/717-iness-des-hommes-des-projets.html">
                            <img class="img-responsive" src="../../assets/images/logo/citeslab.png"/>
                            </a>
                         </div>
                         <!-- [FIN] Logo entreprise -->
                         <!-- [DEBUT] Nom + Description -->
                         <div class="col-lg-5 table-cell" >
-                           <a class="nom_entreprise">CitésLab</a>
+                           <a target="_blank" class="nom_entreprise" href="http://www.citeslab.fr/grand_public/">CitésLab</a>
                            <p class="adresse_entreprise"> 30 av Pompidor - 11100 Narbonne</p>
                         </div>
                         <!-- [FIN] Nom + Description -->
@@ -166,14 +166,14 @@
                      <div class="row table-row ombre_rubrique">
                         <!-- [DEBUT] Logo entreprise -->
                         <div class="col-lg-2 table-cell" >
-                           <a href="http://www.narbonne.cci.fr/">
+                           <a target="_blank" href="http://www.narbonne.cci.fr/">
                            <img class="img-responsive" src="../../assets/images/logo/cci-narbonne.png"/>
                            </a>
                         </div>
                         <!-- [FIN] Logo entreprise -->
                         <!-- [DEBUT] Nom + Description -->
                         <div class="col-lg-5 table-cell" >
-                           <a class="nom_entreprise" href="http://www.narbonne.cci.fr/">Chambre de Commerce et d’Industrie de Narbonne</a>
+                           <a target="_blank" class="nom_entreprise" href="http://www.narbonne.cci.fr/">Chambre de Commerce et d’Industrie de Narbonne</a>
                            <p class="adresse_entreprise"> 1 av du forum - CS47101 - 11785 Narbonne Cedex</p>
                            <!-- [FIN] Nom + Description -->
                         </div>
@@ -189,14 +189,14 @@
                      <div class="row table-row ombre_rubrique">
                         <!-- [DEBUT] Logo entreprise -->
                         <div class="col-lg-2 table-cell" >
-                           <a href="http://www.artisanat.fr/">
+                           <a target="_blank" href="http://www.artisanat.fr/">
                            <img class="img-responsive" src="../../assets/images/logo/cma.png"/>
                            </a>
                         </div>
                         <!-- [FIN] Logo entreprise -->
                         <!-- [DEBUT] Nom + Description -->
                         <div class="col-lg-5 table-cell" >
-                           <a class="nom_entreprise" href="http://www.artisanat.fr/">Chambre de Métiers et de l’Artisanat de l’Aude</a>
+                           <a target="_blank" class="nom_entreprise" href="http://www.artisanat.fr/">Chambre de Métiers et de l’Artisanat de l’Aude</a>
                            <p class="adresse_entreprise"> 10 av du champ de Mars -11100 Narbonne</p>
                            <!-- [FIN] Nom + Description -->
                         </div>
@@ -212,14 +212,14 @@
                      <div class="row table-row ombre_rubrique">
                         <!-- [DEBUT] Logo entreprise -->
                         <div class="col-lg-2 table-cell" >
-                           <a href="http://www.aude.chambagri.fr/">
+                           <a target="_blank" href="http://www.aude.chambagri.fr/">
                            <img class="img-responsive" src="../../assets/images/logo/chambre-d-agri.png"/>
                            </a>
                         </div>
                         <!-- [FIN] Logo entreprise -->
                         <!-- [DEBUT] Nom + Description -->
                         <div class="col-lg-5 table-cell" >
-                           <a class="nom_entreprise" href="http://www.aude.chambagri.fr/">Chambre d’Agriculture de l’Aude</a>
+                           <a target="_blank" class="nom_entreprise" href="http://www.aude.chambagri.fr/">Chambre d’Agriculture de l’Aude</a>
                            <p class="adresse_entreprise"> ZA de Sautès - Trèbes - 11878 Carcassonne Cedex 9</p>
                         </div>
                         <!-- [FIN] Nom + Description -->
@@ -235,14 +235,14 @@
                      <div class="row table-row ombre_rubrique">
                         <!-- [DEBUT] Logo entreprise -->
                         <div class="col-lg-2 table-cell" >
-                           <a href="http://www.bgelr.fr/implantation/bge-aude-et-pyrenees-orientales/">
+                           <a target="_blank" href="http://www.bgelr.fr/implantation/bge-aude-et-pyrenees-orientales/">
                            <img class="img-responsive" src="../../assets/images/logo/bge.png"/>
                            </a>
                         </div>
                         <!-- [FIN] Logo entreprise -->
                         <!-- [DEBUT] Nom + Description -->
                         <div class="col-lg-5 table-cell" >
-                           <a class="nom_entreprise" href="http://www.bgelr.fr/implantation/bge-aude-et-pyrenees-orientales/">BGE Aude et des Pyrénées Orientales</a>
+                           <a target="_blank" class="nom_entreprise" href="http://www.bgelr.fr/implantation/bge-aude-et-pyrenees-orientales/">BGE Aude et des Pyrénées Orientales</a>
                            <p class="adresse_entreprise">29 rue Jean Jaurès - 11100 Narbonne</p>
                            <!-- [FIN] Nom + Description -->
                         </div>
@@ -258,14 +258,14 @@
                      <div class="row table-row ombre_rubrique">
                         <!-- [DEBUT] Logo entreprise -->
                         <div class="col-lg-2 table-cell" >
-                           <a href="http://www.pole-emploi.fr/">
+                           <a target="_blank" href="http://www.pole-emploi.fr/">
                            <img class="img-responsive" src="../../assets/images/logo/pole-emploi.png"/>
                            </a>
                         </div>
                         <!-- [FIN] Logo entreprise -->
                         <!-- [DEBUT] Nom + Description -->
                         <div class="col-lg-5 table-cell" >
-                           <a class="nom_entreprise" href="www.pole-emploi.fr">Pôle Emploi</a>
+                           <a target="_blank" class="nom_entreprise" href="www.pole-emploi.fr">Pôle Emploi</a>
                            <p class="adresse_entreprise"> 100 rue Antoine Becquerel - 11100 Narbonne</p>
                         </div>
                         <!-- [FIN] Nom + Description -->
@@ -281,14 +281,14 @@
                      <div class="row table-row ombre_rubrique">
                         <!-- [DEBUT] Logo entreprise -->
                         <div class="col-lg-2 table-cell" >
-                           <a href="http://www.larucheassociative.org/">
+                           <a target="_blank" target="_blank" href="http://www.larucheassociative.org/">
                            <img class="img-responsive" src="../../assets/images/logo/ruche.jpg"/>
                            </a>
                         </div>
                         <!-- [FIN] Logo entreprise -->
                         <!-- [DEBUT] Nom + Description -->
                         <div class="col-lg-5 table-cell" >
-                           <a class="nom_entreprise" href="http://www.larucheassociative.org/">La Ruche Associative 11</a>
+                           <a target="_blank" class="nom_entreprise" href="http://www.larucheassociative.org/">La Ruche Associative 11</a>
                            <p class="adresse_entreprise">IN’ESS 30 av Pompidor -11100 Narbonne</p>
                            <!-- [FIN] Nom + Description -->
                         </div>
@@ -321,14 +321,14 @@
                      <div class="row table-row ombre_rubrique">
                         <!-- [DEBUT] Logo entreprise -->
                         <div class="col-lg-2 table-cell" >
-                           <a href="">
+                           <a target="_blank" href="http://entreprendre.legrandnarbonne.com/accompagnement-des-entreprises/les-pepinieres-d-entreprises-accompagner-la-creation-et-le-developpement-des-entreprises/620-nucleum.html">
                            <img class="img-responsive" src="../../assets/images/logo/nucleum.png"/>
                            </a>
                         </div>
                         <!-- [FIN] Logo entreprise -->
                         <!-- [DEBUT] Nom + Description -->
                         <div class="col-lg-5 table-cell" >
-                           <a class="nom_entreprise" href="">NUCLEUM Couveuse Pépinière d’Entreprises</a>
+                           <a target="_blank" class="nom_entreprise" href="http://entreprendre.legrandnarbonne.com/accompagnement-des-entreprises/les-pepinieres-d-entreprises-accompagner-la-creation-et-le-developpement-des-entreprises/620-nucleum.html">NUCLEUM Couveuse Pépinière d’Entreprises</a>
                            <p class="adresse_entreprise"> 30 av Pompidor - 11100 Narbonne</p>
                            <!-- [FIN] Nom + Description -->
                         </div>
@@ -344,14 +344,14 @@
                      <div class="row table-row ombre_rubrique">
                         <!-- [DEBUT] Logo entreprise -->
                         <div class="col-lg-2 table-cell" >
-                           <a href="">
+                           <a target="_blank" href="http://www.energies-alternatives.pro/">
                            <img class="img-responsive" src="../../assets/images/logo/energies-alternative.png"/>
                            </a>
                         </div>
                         <!-- [FIN] Logo entreprise -->
                         <!-- [DEBUT] Nom + Description -->
                         <div class="col-lg-5 table-cell" >
-                           <a class="nom_entreprise" href="">Energies Alternatives Méditerranée</a>
+                           <a target="_blank" class="nom_entreprise" href="http://www.energies-alternatives.pro/">Energies Alternatives Méditerranée</a>
                            <p class="adresse_entreprise"> 30 av Pompidor - 11100 Narbonne</p>
                            <!-- [FIN] Nom + Description -->
                         </div>
@@ -367,14 +367,14 @@
                      <div class="row table-row ombre_rubrique">
                         <!-- [DEBUT] Logo entreprise -->
                         <div class="col-lg-2 table-cell" >
-                           <a href="">
+                           <a target="_blank" href="http://www.cooperer.coop/annuaire/france/languedoc-roussillon/perpignan/service-a-la-personne/vivela/">
                            <img class="img-responsive" src="../../assets/images/logo/vivela.png"/>
                            </a>
                         </div>
                         <!-- [FIN] Logo entreprise -->
                         <!-- [DEBUT] Nom + Description -->
                         <div class="col-lg-5 table-cell" >
-                           <a class="nom_entreprise" href="">Vivéla</a>
+                           <a target="_blank" class="nom_entreprise" href="http://www.cooperer.coop/annuaire/france/languedoc-roussillon/perpignan/service-a-la-personne/vivela/">Vivéla</a>
                            <p class="adresse_entreprise"> 30 av Pompidor - 11100 Narbonne</p>
                         </div>
                         <!-- [FIN] Nom + Description -->
@@ -407,14 +407,14 @@
                      <div class="row table-row ombre_rubrique">
                         <!-- [DEBUT] Logo entreprise -->
                         <div class="col-lg-2 table-cell" >
-                           <a href="">
+                           <a target="_blank" href="http://entreprendre.legrandnarbonne.com/accompagnement-des-entreprises/les-pepinieres-d-entreprises-accompagner-la-creation-et-le-developpement-des-entreprises/260-eole.html">
                            <img class="img-responsive" src="../../assets/images/logo/eole.png"/>
                            </a>
                         </div>
                         <!-- [FIN] Logo entreprise -->
                         <!-- [DEBUT] Nom + Description -->
                         <div class="col-lg-5 table-cell" >
-                           <a class="nom_entreprise" href="">EOLE - Pépinière Hôtel d’Entreprises</a>
+                           <a target="_blank" class="nom_entreprise" href="http://entreprendre.legrandnarbonne.com/accompagnement-des-entreprises/les-pepinieres-d-entreprises-accompagner-la-creation-et-le-developpement-des-entreprises/260-eole.html">EOLE - Pépinière Hôtel d’Entreprises</a>
                            <p class="adresse_entreprise"> ZI Plaisance - 10 av du Champ de Mars - 11100 Narbonne</p>
                            <!-- [FIN] Nom + Description -->
                         </div>
@@ -430,14 +430,14 @@
                      <div class="row table-row ombre_rubrique">
                         <!-- [DEBUT] Logo entreprise -->
                         <div class="col-lg-2 table-cell" >
-                           <a href="">
+                           <a target="_blank" href="http://www.pepiniere-innoveum.org/">
                            <img class="img-responsive" src="../../assets/images/logo/innoveum.png"/>
                            </a>
                         </div>
                         <!-- [FIN] Logo entreprise -->
                         <!-- [DEBUT] Nom + Description -->
                         <div class="col-lg-5 table-cell" >
-                           <a class="nom_entreprise" href="">INNOVEUM - Pépinière Hôtel d’Entreprises</a>
+                           <a target="_blank" class="nom_entreprise" href="http://www.pepiniere-innoveum.org/">INNOVEUM - Pépinière Hôtel d’Entreprises</a>
                            <p class="adresse_entreprise"> Parc Méditerranéen de l’Innovation - 11100 Narbonne</p>
                            <!-- [FIN] Nom + Description -->
                         </div>
@@ -453,14 +453,14 @@
                      <div class="row table-row ombre_rubrique">
                         <!-- [DEBUT] Logo entreprise -->
                         <div class="col-lg-2 table-cell">
-                           <a href="">
+                           <a target="_blank" href="http://entreprendre.legrandnarbonne.com/accompagnement-des-entreprises/les-pepinieres-d-entreprises-accompagner-la-creation-et-le-developpement-des-entreprises/620-nucleum.html">
                            <img class="img-responsive" src="../../assets/images/logo/nucleum.png"/>
                            </a>
                         </div>
                         <!-- [FIN] Logo entreprise -->
                         <!-- [DEBUT] Nom + Description -->
                         <div class="col-lg-5 table-cell" >
-                           <a class="nom_entreprise" href="">NUCLEUM Couveuse Pépinière d’Entreprises</a>
+                           <a target="_blank" class="nom_entreprise" href="http://entreprendre.legrandnarbonne.com/accompagnement-des-entreprises/les-pepinieres-d-entreprises-accompagner-la-creation-et-le-developpement-des-entreprises/620-nucleum.html">NUCLEUM Couveuse Pépinière d’Entreprises</a>
                            <p class="adresse_entreprise"> 30 av Pompidor - 11100 Narbonne</p>
                         </div>
                         <!-- [FIN] Nom + Description -->
@@ -493,14 +493,14 @@
                      <div class="row table-row ombre_rubrique">
                         <!-- [DEBUT] Logo entreprise -->
                         <div class="col-lg-2 table-row">
-                           <a href="">
+                           <a target="_blank" href="http://www.adie.org/">
                            <img class="img-responsive" src="../../assets/images/logo/adie.png"/>
                            </a>
                         </div>
                         <!-- [FIN] Logo entreprise -->
                         <!-- [DEBUT] Nom + Description -->
                         <div class="col-lg-5 table-cell" >
-                           <a class="nom_entreprise" href="">ADIE</a>
+                           <a target="_blank" class="nom_entreprise" href="http://www.adie.org/">ADIE</a>
                            <p class="adresse_entreprise"> IN’ESS 30 av Pompidor - 11100 Narbonne</p>
                         </div>
                         <!-- [FIN] Nom + Description -->
@@ -514,16 +514,16 @@
                      <!-- [FIN] ADIE -->
                      <!-- [DEBUT] AIRDIE -->
                      <div class="row table-row ombre_rubrique">
-                        <!-- [DEBUT] Logo entreprise -->
-                        <div class="col-lg-2 table-cell"
-                        <a href="">
-                        <img class="img-responsive" src="../../assets/images/logo/airdie.png"/>
+                      <!-- [DEBUT] Logo entreprise -->
+                      <div class="col-lg-2 table-cell">
+                        <a target="_blank" href="http://airdie.org/">
+                          <img class="img-responsive" src="../../assets/images/logo/airdie.png"/>
                         </a>
-                     </div>
+                      </div>
                      <!-- [FIN] Logo entreprise -->
                      <!-- [DEBUT] Nom + Description -->
                      <div class="col-lg-5 table-cell" >
-                        <a class="nom_entreprise" href=""> AIRDIE</a>
+                        <a target="_blank" class="nom_entreprise" href="http://airdie.org/"> AIRDIE</a>
                         <p class="adresse_entreprise"> 3 bis boulevard Maréchal Jore - 11100 Narbonne</p>
                         <!-- [FIN] Nom + Description -->
                      </div>
@@ -539,14 +539,14 @@
                   <div class="row table-row ombre_rubrique">
                      <!-- [DEBUT] Logo entreprise -->
                      <div class="col-lg-2 table-cell">
-                        <a href="http://www.initiative-lr.fr/initiative-narbonne-arrondissement.html">
+                        <a target="_blank" href="http://www.initiative-lr.fr/initiative-narbonne-arrondissement.html">
                         <img class="img-responsive" src="../../assets/images/logo/initiative.png"/>
                         </a>
                      </div>
                      <!-- [FIN] Logo entreprise -->
                      <!-- [DEBUT] Nom + Description -->
                      <div class="col-lg-5 table-cell" >
-                        <a class="nom_entreprise" href="http://www.initiative-lr.fr/initiative-narbonne-arrondissement.html">Initiative Narbonne Arrondissement</a>
+                        <a target="_blank" class="nom_entreprise" href="http://www.initiative-lr.fr/initiative-narbonne-arrondissement.html">Initiative Narbonne Arrondissement</a>
                         <p class="adresse_entreprise"> 1 av du Forum - 11100 Narbonne</p>
                      </div>
                      <!-- [FIN] Nom + Description -->
@@ -579,14 +579,14 @@
                   <div class="row table-row ombre_rubrique">
                      <!-- [DEBUT] Logo entreprise -->
                      <div class="col-lg-2 table-cell" >
-                        <a href="">
+                        <a target="_blank" href="http://www.oec-montpellier.org/conseil-regional/chambre-des-experts-comptables-du-narbonnais">
                         <img class="img-responsive" src="../../assets/images/logo/expert-comptable.png"/>
                         </a>
                      </div>
                      <!-- [FIN] Logo entreprise -->
                      <!-- [DEBUT] Nom + Description -->
                      <div class="col-lg-5 table-cell" >
-                        <a class="nom_entreprise" href="">Chambre des Experts Comptables du Narbonnais</a>
+                        <a target="_blank" class="nom_entreprise" href="http://www.oec-montpellier.org/conseil-regional/chambre-des-experts-comptables-du-narbonnais">Chambre des Experts Comptables du Narbonnais</a>
                         <p class="adresse_entreprise"> av du Forum CS47101 - 11785 Narbonne</p>
                      </div>
                      <!-- [FIN] Nom + Description -->
@@ -602,14 +602,14 @@
                   <div class="row table-row ombre_rubrique">
                      <!-- [DEBUT] Logo entreprise -->
                      <div class="col-lg-2 table-cell" >
-                        <a href="">
+                        <a target="_blank" href="#">
                         <img class="img-responsive" src="../../assets/images/logo/avocats.png"/>
                         </a>
                      </div>
                      <!-- [FIN] Logo entreprise -->
                      <!-- [DEBUT] Nom + Description -->
                      <div class="col-lg-5 table-cell" >
-                        <a class="nom_entreprise" href=""> Ordre des Avocats du Barreau de Narbonne</a>
+                        <a target="_blank" class="nom_entreprise" href="#"> Ordre des Avocats du Barreau de Narbonne</a>
                         <p class="adresse_entreprise"> 29 boulevard du Général de Gaulle - 11100 Narbonne</p>
                      </div>
                      <!-- [FIN] Nom + Description -->
@@ -625,14 +625,14 @@
                   <div class="row table-row ombre_rubrique">
                      <!-- [DEBUT] Logo entreprise -->
                      <div class="col-lg-2 table-cell" >
-                        <a href="http://www.initiative-lr.fr/initiative-narbonne-arrondissement.html">
+                        <a target="_blank" href="http://www.initiative-lr.fr/initiative-narbonne-arrondissement.html">
                         <img class="img-responsive" src="../../assets/images/logo/initiative.png"/>
                         </a>
                      </div>
                      <!-- [FIN] Logo entreprise -->
                      <!-- [DEBUT] Nom + Description -->
                      <div class="col-lg-5 table-cell" >
-                        <a class="nom_entreprise" href="http://www.initiative-lr.fr/initiative-narbonne-arrondissement.html">AGEA Chambre professionnelle des Agents Généraux
+                        <a target="_blank" class="nom_entreprise" href="http://www.initiative-lr.fr/initiative-narbonne-arrondissement.html">AGEA Chambre professionnelle des Agents Généraux
                         d’assurance de Narbonne - Lézignant</a>
                         <p class="adresse_entreprise"> 9 bd Docteur Lacroix - 11100 Narbonne</p>
                      </div>

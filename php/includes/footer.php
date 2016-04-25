@@ -1,29 +1,37 @@
 <footer>
 	<div class='row'>
 		<div class='col-lg-4'>
-			<img src='../../assets/images/logo/Visuel-principal-element-logo-grand-narbonne.png' id='logoNarbonne' class='img-responsive'/>
-		</div>
+      <a target="_blank" href="http://www.legrandnarbonne.com/">
+			   <img src='../../assets/images/logo/grand-narbonne.png' id='logoNarbonne' class='img-responsive'/>
+      </a>
+    </div>
 		<div class='col-lg-4'>
 			<p class='text-center'>
-				<a href="../pages/contact.php">Contact</a>
+				<a href="pages/contact.php">Contact</a>
 				 -
-				<a href="../pages/mentions-legales.php">Mentions légales</a>
+				<a href="pages/mentions-legales.php">Mentions légales</a>
 				 -
-				<a href="../pages/a-propos.php">A propos</a>
+				<a href="pages/a-propos.php">A propos</a>
 			</p>
 		</div>
 		<div class='col-lg-4'>
-			<img src='../../assets/images/logo/Footer-logo-simplon.png' id='logoSimplon' class='img-responsive'/>
-		</div>
+      <a target="_blank" href="http://simplon.co/">
+			  <img src='../../assets/images/logo/simplon.png' id='logoSimplon' class='img-responsive'/>
+      </a>
+    </div>
 	</div>
 	<div class='row'>
 		<div class='col-lg-4'></div>
 		<div class='col-lg-4 text-center'>
-			<img src='../../assets/images/logo/logo_tousNosProjet.PNG' id='logoBPI' class='img-responsive'/>
-		</div>
+      <a target="_blank" href="http://tousnosprojets.bpifrance.fr/">
+			   <img src='../../assets/images/logo/bpi-france.png' id='logoBPI' class='img-responsive'/>
+      </a>
+    </div>
 		<div class='col-lg-4'>
-			<img src='../../assets/images/logo/iness.png' id='logoIness' class='img-responsive'/>
-		</div>
+			<a target="_blank" href="http://entreprendre.legrandnarbonne.com/717-iness-des-hommes-des-projets.html">
+        <img src='../../assets/images/logo/iness.png' id='logoInessFooter' class='img-responsive'/>
+      </a>
+    </div>
 	</div>
 </footer>
 
