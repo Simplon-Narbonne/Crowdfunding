@@ -26,7 +26,7 @@ function infoProjet($nProjet, $properName, $chaine){
         break;
     case 'time_left':
       if ($objProj->time_left == "" || $objProj->time_left == " "){
-        echo "Financé !";
+        echo "Terminé !";
       }
       else {
         echo $objProj->time_left_short;
