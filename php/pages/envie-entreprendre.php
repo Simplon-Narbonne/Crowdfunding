@@ -10,7 +10,7 @@
          <div class="row">
             <div class="col-lg-12 col-centered" >
                <div class="row">
-                  <div class="col-lg-12 vertical_center col-centered">
+                  <div class="col-lg-12 col-centered">
                      <div class="titre_page">LE PARCOURS DU CREATEUR D'ENTREPRISE
                         <br/>
                         SUR LE TERRITOIRE DU GRAND NARBONNE
@@ -25,7 +25,7 @@
                      </div>
                   </div>
                   <!-- [DEBUT] Logo Rubrique -->
-                  <div class="col-lg-3 vertical_center" >
+                  <div class="col-lg-3 " >
                      <img class="img-responsive ombre_imgRubrique" src="../../assets/images/logo/idee.png"/>
                   </div>
                   <!-- [FIN] Logo Rubrique -->
@@ -116,16 +116,16 @@
                      </div>
                   </div>
                   <!-- [DEBUT] Logo Rubrique -->
-                  <div class="col-lg-3 vertical_center">
+                  <div class="col-lg-3 ">
                      <img class="img-responsive ombre_imgRubrique" src="../../assets/images/logo/amorcage.png"/>
                   </div>
                   <!-- [FIN] Logo Rubrique -->
                   <!-- [DEBUT] CitésLab -->
-                  <div class="col-lg-9 table-responsive" style="border-left:2px solid #FFF" >
+                  <div class="col-lg-9 table-responsive " style="border-left:2px solid #FFF ; " >
                      <!-- [DEBUT] GRAND NARBONNE -->
-                     <div class="row table-row ombre_rubrique vertical_center">
+                     <div class="row table-row ombre_rubrique">
                         <!-- [DEBUT] Logo entreprise -->
-                        <div class="col-lg-2 table-cell">
+                        <div class="col-lg-2 table-cell ">
                            <a href="http://entreprendre.legrandnarbonne.com/717-iness-des-hommes-des-projets.html">
                            <img class="img-responsive" src="../../assets/images/logo/citeslab.png"/>
                            </a>

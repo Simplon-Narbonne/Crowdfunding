@@ -47,7 +47,7 @@
 <!-- HEADER STATIQUE FIN -->
 <div class='container'>
 <div class='row'>
-  <div class='col-lg-12 col-centered classeprojet'>
+  <div class='col-lg-12 col-centered'>
     <div class="titre_page ">SOUTENEZ UN PROJET</div>
         <div class="row">
 
@@ -64,9 +64,10 @@ echo "
                 <!-- NOM PROJET [DEBUT] -->
                 <div class='row'>
                   <div class='col-lg-12 carrontop'>
-                      <h4>";
+                      <div class='vertical_center' style='padding-right:15px'>
+                        <h4>";
                         infoProjet($i, "name_fr", "</h4>");
-                    echo "
+                echo "</div>
                   </div>
                 </div>
                 <!-- NOM PROJET [FIN] -->
