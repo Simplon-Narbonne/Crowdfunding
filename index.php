@@ -9,14 +9,6 @@
 </head>
 
 <body>
-
-​<?php include('php/includes/connexionApi.php');?>
-<?php $objResult = json_decode($connexion);?>
-
-<!-- FUNCTION POUR AFFICHER UNE DONNEE PRECISE -->
-<?php include('php/includes/function/affichDataApi.php'); ?>
-<!-- FUNCTION FIN -->
-
     <header>
     <div class="container">
     <div class="row">
@@ -69,6 +61,13 @@
     </div>
     </header>
 
+    <?php include('php/includes/connexionApi.php');?>
+    <?php $objResult = json_decode($connexion);?>
+
+    <!-- FUNCTION POUR AFFICHER UNE DONNEE PRECISE -->
+    <?php include('php/includes/function/affichDataApi.php'); ?>
+    <!-- FUNCTION FIN -->
+    
 <!-- HEADER STATIQUE FIN -->
 <div class='container'>
 <div class='row' >
