@@ -72,7 +72,7 @@
 
 <!-- HEADER STATIQUE FIN -->
 <div class='container'>
-<div class='row'>
+<div class='row' >
   <div class='col-lg-12 col-centered'>
     <div class="titre_page ">SOUTENEZ UN PROJET</div>
         <div class="row">
@@ -203,11 +203,11 @@ echo "
     </div>
 		<div class='col-lg-4'>
 			<p class='text-center'>
-				<a href="pages/contact.php">Contact</a>
+				<a href="php/pages/contact.php">Contact</a>
 				 -
-				<a href="pages/mentions-legales.php">Mentions légales</a>
+				<a href="php/pages/mentions-legales.php">Mentions légales</a>
 				 -
-				<a href="pages/a-propos.php">A propos</a>
+				<a href="php/pages/a-propos.php">A propos</a>
 			</p>
 		</div>
 		<div class='col-lg-4'>

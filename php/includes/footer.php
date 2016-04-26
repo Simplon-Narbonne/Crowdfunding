@@ -7,11 +7,11 @@
     </div>
 		<div class='col-lg-4'>
 			<p class='text-center'>
-				<a href="pages/contact.php">Contact</a>
+				<a href="contact.php">Contact</a>
 				 -
-				<a href="pages/mentions-legales.php">Mentions légales</a>
+				<a href="mentions-legales.php">Mentions légales</a>
 				 -
-				<a href="pages/a-propos.php">A propos</a>
+				<a href="a-propos.php">A propos</a>
 			</p>
 		</div>
 		<div class='col-lg-4'>
