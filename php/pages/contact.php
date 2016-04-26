@@ -11,12 +11,19 @@
 		<div class="row">
 			<div class="col-lg-12 col-centered">
 				<div class="titre_page">CONTACTEZ NOUS</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-12 col-centered">
 				<div class="contact">
 					<form method="POST" action="contact.php">
-						<input type="mail" name="mail" placeholder="contact@mail.fr"><br/>
-						<input type="text" name="objet" placeholder="objet"><br/>
-						<textarea name="contenu" rows="8" cols="40"></textarea><br/>
-						<input type="submit" name="submit" value="Envoyer">
+						<label for="mailLabel">Votre e-mail* :</label>
+						<input type="mail" name="mail" id="mail" placeholder="contact@mail.fr"><br/>
+						<label for="objetLabel">Objet* : </label>
+						<input type="text" name="objet" id="objet" placeholder="objet"><br/>
+						<label for="contenuLabel">Votre message* : </label><br/>
+						<textarea name="contenu" id="contenu" rows="8" cols="40"></textarea><br/>
+						<input type="submit" name="submit" id="submit" value="Envoyer">
 					</form>
 				</div>
 			</div>
@@ -31,11 +38,11 @@
 
 	<?php
 	$mail = $_POST['mail'];
-	$text = $_POST['objet'];
+	$objet = $_POST['objet'];
 	$contenu = $_POST['contenu'];
 
 	$prepare = $bdd->prepare('INSERT INTO contact(mail, objet ,contenu)
 	VALUES (:mail, :objet, :contenu)');
-	$prepare->execute(array('mail' => $mail,'objet' => $text,'contenu' => $contenu
+	$prepare->execute(array('mail' => $mail,'objet' => $objet,'contenu' => $contenu
 ));
 	?>
