@@ -5,5 +5,8 @@ for (i=0; i< progress.length ; i++ ){
   if (pourcentUnit > 100){
     var pourcent = "100%";
   }
+  else if (pourcentUnit < 30) {
+    var pourcent = "30%";
+  }
   progress[i].style.width = pourcent;
 }
