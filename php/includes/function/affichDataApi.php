@@ -39,5 +39,4 @@ function infoProjet($nProjet, $properName, $chaine){
     break;
   }
 }
-
 ?>

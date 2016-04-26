@@ -1,25 +1,22 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Les projets à financer</title>
-    <link rel="stylesheet" href="assets/css/bootstrap/css/bootstrap.css" type="text/css"/>
-    <link rel="stylesheet" href="assets/css/normalize.css" type="text/css"/>
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
-  </head>
+<head>
+  <meta charset="utf-8">
+  <title>Les projets à financer</title>
+  <link rel="stylesheet" href="assets/css/bootstrap/css/bootstrap.css" type="text/css"/>
+  <link rel="stylesheet" href="assets/css/normalize.css" type="text/css"/>
+  <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
+</head>
+
+<body>
 
 ​<?php include('php/includes/connexionApi.php');?>
-
-<?php
-/* OBJET QUI CONTIENT TOUTES LES DONNEES */
- $objResult = json_decode($connexion);
-?>
+<?php $objResult = json_decode($connexion);?>
 
 <!-- FUNCTION POUR AFFICHER UNE DONNEE PRECISE -->
 <?php include('php/includes/function/affichDataApi.php'); ?>
 <!-- FUNCTION FIN -->
 
-  <body>
     <header>
     <div class="container">
     <div class="row">
