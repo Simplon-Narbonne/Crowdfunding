@@ -10,7 +10,9 @@
     <a target="_blank" href="http://legrandnarbonne.com/">
       <img id="logo-grand-narbonne" class="responsive" src="../../assets/images/logo/grand-narbonne.png"/>
     </a>
+    <a href="../../index.php">
       <img id="eole-innoveum-nucleum" class="responsive" src="../../assets/images/logo/eole-innoveum-nucleum.png"/>
+    </a>
   </div>
   <div class="col-lg-6">
     <div id="titre-header">
