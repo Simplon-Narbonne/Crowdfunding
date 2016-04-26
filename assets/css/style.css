@@ -179,6 +179,7 @@ h4 {
   height:70px;
 }
 .goal{
+  margin-left: 4px;
 }
 .progressBar {
 	height:20px;
@@ -294,12 +295,29 @@ h4 {
   border-bottom-right-radius: 20px;
 }
 .crew img {
-  width: 100%;
+  width: 80%;
+  margin:auto;
+}
+.crew h3{
+  text-align: center;
 }
 .crew p {
   font-size: 17px;
+  margin-bottom:50px;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 /* A PROPOS [FIN] */
+
+
+
+
+/* CONTACT [DEBUT] */
+.contact{
+  margin: 50px;
+  text-align: center;
+}
+/* CONTACT [FIN] */
 
 
 
@@ -313,17 +331,14 @@ footer {
 #logoNarbonne {
   width:100%;
 }
-
 footer p a{
   color:white;
 }
-
 footer p a:hover{
   color:#be004f;
 }
-
 #logoBPI {
-  width:100%;
+  width:80%;
 }
 #logoSimplon {
   width:100%;
@@ -331,5 +346,4 @@ footer p a:hover{
 #logoInessFooter {
   width:100%;
 }
-
 /* FOOTER [FIN] */

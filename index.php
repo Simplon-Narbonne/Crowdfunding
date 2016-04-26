@@ -207,11 +207,11 @@ echo "
 		    </div>
 				<div class='col-lg-4'>
 					<p class='text-center'>
-						<a href="contact.php">Contact</a>
+						<a href="php/pages/contact.php">Contact</a>
 						 -
-						<a href="mentions-legales.php">Mentions légales</a>
+						<a href="php/pages/mentions-legales.php">Mentions légales</a>
 						 -
-						<a href="a-propos.php">A propos</a>
+						<a href="php/pages/a-propos.php">A propos</a>
 					</p>
 					<div class="row">
 						<div class="col-lg-6 col-centered">
