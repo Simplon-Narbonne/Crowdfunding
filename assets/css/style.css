@@ -212,16 +212,18 @@ h4 {
 
 
 /* COMMENT CA MARCHE [DEBUT] */
-#commentCaMarcheHaut p, li {
+
+#comment-ca-marche-haut p, li {
   font-size:1.2em;
   text-align: justify;
 }
-#commentCaMarcheBas p {
+#comment-ca-marche-bas p {
   font-size:1.2em;
   text-align: justify;
 }
-#commentCaMarcheBas img {
-  width: 90%;
+#comment-ca-marche-bas img {
+  width: 80%;
+  margin-bottom: 50px;
 }
 /* COMMENT CA MARCHE [FIN] */
 
@@ -258,7 +260,6 @@ h4 {
 }
 .nom_entreprise{
   font-size:0.8em;
-
 }
 .adresse_entreprise{
   font-size:0.8em;
@@ -307,34 +308,28 @@ h4 {
 footer {
   background-color: #189cbc;
   height: auto;
-  margin-top: 20px;
-}
-footer img {
-  width: 40%;
-  padding: 10px 10px;
-}
-footer p {
-    padding-top: 10px;
-    font-size: 0.8em;
-    color: white;
-}
-#logoSimplon {
-  width: 50%;
-  float: right;
-}
-#logoInessFooter {
-  float: right;
+  padding:10px;
 }
 #logoNarbonne {
-  float: left;
+  width:100%;
 }
+
+footer p a{
+  color:white;
+}
+
+footer p a:hover{
+  color:#be004f;
+}
+
 #logoBPI {
-  margin: 0 auto;
+  width:100%;
 }
-footer a:visited {
-  color: white;
+#logoSimplon {
+  width:100%;
 }
-footer a:link {
-  color: white;
+#logoInessFooter {
+  width:100%;
 }
+
 /* FOOTER [FIN] */
