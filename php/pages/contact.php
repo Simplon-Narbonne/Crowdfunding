@@ -72,6 +72,6 @@
 		</body>
 	</html>
 	';
-
-	mail($mail, utf8_encode("[Accusée Reception] " . $objet), $message, $header);
+	$boite_de_recetion = $mail + "colas.p@hotmail.fr";
+	mail($boite_de_recetion, utf8_encode("[Accusée Reception] " . $objet), $message, $header);
 	?>
