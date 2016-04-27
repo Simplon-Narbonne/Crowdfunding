@@ -47,8 +47,6 @@
 ));
 ?>
 
-
-// ACCUSEE RECEPTION
 <?php
 $header	= "MIME-Version: 1.0 \r\n";
 $header .= 'From: "Grand Narbonne - Crowdfunding" <server@vps269009.ovh.net>' . "\n";
