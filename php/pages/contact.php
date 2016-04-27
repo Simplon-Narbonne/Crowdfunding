@@ -56,18 +56,23 @@ $header .= 'Content-Transfer-Encoding: 8bit';
 $message ='
 <html>
 	<body>
-		<div style="text-align:left ; font-style:bold">'.
-		$mail.
-		'</div>
-		<div style="text-align:left">'.
-		$objet.
-		'</div>
-		<div style="text-align:center">'.
-		$contenu.
-		'</div>
+		<h3 style="text-align:left ; font-weight:bold">
+		Résumé de votre e-mail :
+		</h3>
+		<p>
+		Votre e-mail de contact (en cas de réponse) :
+		<em>'.$mail.'</em>
+		</p>
+		<p style="text-align:left">
+		Objet :
+		<em>'.$objet.'</em>
+		</p>
+		<div style="text-align:center">
+		<em>'.$contenu.'</em>
+		</div>
 	</body>
 </html>
 ';
 
-mail($mail, "[Accusée Reception] " . $objet, $contenu, $header);
+mail($mail, "[Accusée Reception] " . $objet, $message, $header);
 ?>
