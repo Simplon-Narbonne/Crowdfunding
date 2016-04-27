@@ -26,7 +26,7 @@
         </div>
         <div class="clear"></div>
         <div id="slogan">
-          <p>Ensemble, dévellopons et dynamisons les initiatives locales</p>
+          <p>Ensemble, développons et dynamisons les initiatives locales</p>
         </div>
       </div>
       <div class="col-lg-1">
@@ -39,6 +39,7 @@
       <div class="clear"></div>
 
       <nav class="navbar navbar-inverse">
+        <div class="container">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
               <span class="sr-only">Toggle navigation</span>
@@ -54,7 +55,7 @@
               <li><a href="php/pages/envie-entreprendre.php">ENVIE D'ENTREPRENDRE</a></li>
             </ul>
           </div>
-
+        </div>
       </nav>
 
     </div>

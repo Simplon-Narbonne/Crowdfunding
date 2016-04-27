@@ -69,5 +69,5 @@ $message ='
 </html>
 ';
 
-mail($mail, "[Accusée Reception]" . $objet, $contenu, $header);
+mail($mail, "[Accusée Reception] " . $objet, $contenu, $header);
 ?>
