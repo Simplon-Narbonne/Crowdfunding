@@ -74,5 +74,5 @@ $message ='
 </html>
 ';
 
-mail($mail, "[Accusée Reception] " . $objet, $message, $header);
+mail($mail, utf8_encode("[Accusée Reception] " . $objet), utf8_encode($message), $header);
 ?>
