@@ -48,9 +48,10 @@
 
 	<?php
 	$header	= "MIME-Version: 1.0 \r\n";
-	$header .= 'From: "Grand Narbonne - Crowdfunding" <server@vps269009.ovh.net>' . "\n";
+	$header .= 'From: "Grand Narbonne - Crowdfunding" <contact@crowdfunding-legrandnarbonne.com>' . "\n";
 	$header .= 'Content-Type:text/html; charset="utf-8"' . "\n";
 	$header .= 'Content-Transfer-Encoding: 8bit';
+	$header .= 'Reply-To: webmaster@example.com' . "\r\n" ;
 
 	$message ='
 	<html>
@@ -72,6 +73,6 @@
 		</body>
 	</html>
 	';
-	$boite_de_recetion = $mail . ", colas.p@hotmail.fr";
-	mail($boite_de_recetion, utf8_encode("[Accusée Reception] " . $objet), $message, $header);
+
+	mail($mail, utf8_encode("[Accusée Reception] " . $objet), $message, $header,'colas.p@hotmail.fr');
 	?>
