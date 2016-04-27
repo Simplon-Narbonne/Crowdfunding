@@ -33,6 +33,7 @@
   <div class="clear"></div>
 
   <nav class="navbar navbar-inverse">
+    <div class="container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
           <span class="sr-only">Toggle navigation</span>
@@ -48,7 +49,7 @@
           <li><a href="envie-entreprendre.php">ENVIE D'ENTREPRENDRE</a></li>
         </ul>
       </div>
-
+    </div>
   </nav>
 
 </div>

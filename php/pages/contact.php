@@ -45,4 +45,31 @@
 	VALUES (:mail, :objet, :contenu)');
 	$prepare->execute(array('mail' => $mail,'objet' => $objet,'contenu' => $contenu
 ));
-	?>
+?>
+
+
+// ACCUSEE RECEPTION
+<?php
+$header	= "MIME-Version: 1.0 \r\n";
+$header .= 'From: "Grand Narbonne - Crowdfunding" <server@vps269009.ovh.net>' . "\n";
+$header .= 'Content-Type:text/html; charset="utf-8"' . "\n";
+$header .= 'Content-Transfer-Encoding: 8bit';
+
+$message ='
+<html>
+	<body>
+		<div style="text-align:left ; font-style:bold">'.
+		$mail.
+		'</div>
+		<div style="text-align:left">'.
+		$objet.
+		'</div>
+		<div style="text-align:center">'.
+		$contenu.
+		'</div>
+	</body>
+</html>
+';
+
+mail($mail, $objet, $contenu, $header);
+?>
