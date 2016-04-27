@@ -6,6 +6,7 @@
 
 		<?php include("../includes/header.php");?>
 
+<body>
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 col-centered">
@@ -50,5 +51,5 @@
 			</div>
 		</div>
 	</div>
-
+</body>
 		<?php include('../includes/footer.php'); ?>
