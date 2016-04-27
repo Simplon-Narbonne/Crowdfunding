@@ -74,5 +74,5 @@
 	</html>
 	';
 
-	mail($mail, utf8_encode("[Accusée Reception] " . $objet), $message, $header,'colas.p@hotmail.fr');
+	mail($mail, mb_encode_mimeheader(("[Accusée Reception] " . $objet)), $message, $header);
 	?>
