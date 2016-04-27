@@ -15,12 +15,16 @@
     </a>
   </div>
   <div class="col-lg-6">
-    <div id="titre-header">
-      <h1>CROWD-FUN-DING</h1>
+    <div class="row">
+      <div class="col-lg-12" id="titre-header">
+        <h1 style="font-size:40px; ">CROWD-FUN-DING</h1>
+        <h2 style="text-align:right ; margin:0px">en Grand Narbonne</h2>
+      </div>
     </div>
-    <div class="clear"></div>
-    <div id="slogan">
-      <p>Ensemble, dévellopons et dynamisons les initiatives locales</p>
+    <div class="row">
+      <div class="col-lg-12" id="slogan">
+      Ensemble, développons et dynamisons les initiatives locales
+      </div>
     </div>
   </div>
   <div class="col-lg-1">

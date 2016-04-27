@@ -43,8 +43,13 @@ header{
   background-color: #189cbc;
 }
 header h1{
-  font-size: 30px;
   font-family: "disco";
+  color:white;
+  font-size: 40px;
+  margin-bottom: 0px;
+}
+header h2{
+  color:white;
 }
 #logo-grand-narbonne{
   position:absolute;;
@@ -59,14 +64,10 @@ header h1{
   margin-left:-50px;
 }
 #titre-header{
-  margin-top:30px;
-  color:white;
 }
 #slogan{
-  font-size:1.4em;
+  font-size:1.3em;
   margin-top: 100px;
-  vertical-align: bottom;
-  position:relative;
   color:white;
 }
 #iness{
@@ -213,17 +214,38 @@ h4 {
 
 /* COMMENT CA MARCHE [DEBUT] */
 
+.embed-crowdfunding{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
 #comment-ca-marche-haut p, li {
   font-size:1.2em;
   text-align: justify;
 }
-#comment-ca-marche-bas p {
-  font-size:1.2em;
-  text-align: justify;
-}
-#comment-ca-marche-bas img {
+#img_vp{
   width: 80%;
+}
+#cot_debut{
+  width: 100%;
+}
+#cot_fin{
+  width: 63.16%;
+  margin-left: 100%
+}
+#signature-vp{
+  float:right;
   margin-bottom: 50px;
+}
+.signature-vp{
+  text-align: center;
+  font-size:13px;
+}
+.ccm-crowdfunding p {
+  font-size:15px;
+}
+.ccm-crowdfunding ul li {
+  font-size:15px;
 }
 /* COMMENT CA MARCHE [FIN] */
 
