@@ -33,7 +33,7 @@
 
 	<?php include("../includes/footer.php");?>
 
-	<?php include("../includes/bdd-contact.php");?>
+	<?php include("../includes/bdd.php");?>
 
 	<?php
 	$mail = $_POST['mail'];

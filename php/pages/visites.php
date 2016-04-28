@@ -1,4 +1,4 @@
-	<?php include("../includes/bdd-visites.php");?>
+	<?php include("../includes/bdd.php");?>
 
 <?php
 
