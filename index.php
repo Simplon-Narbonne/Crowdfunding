@@ -8,7 +8,40 @@
   <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
 </head>
 
+
 <body>
+  <?php
+  try
+  {
+    $bdd = new PDO('mysql:host=localhost;dbname=crowdfunding', 'root', 'root');
+    $bdd->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_WARNING );
+  }
+
+  catch (Exception $exept)
+  {
+    die('Une erreur est survenue, veuillez raffraichir la page : ' . $exept->getMessage());
+  }
+  ?>
+
+  <?php
+    $time = date("U");
+    $ip_user = $_SERVER["REMOTE_ADDR"];
+    $req_ip_existe = $bdd->prepare('SELECT * FROM visites WHERE ip = ?');
+    $req_ip_existe->execute(array($ip_user));
+    $ip_existe = $req_ip_existe->rowCount();
+
+    if ($ip_existe == 0){
+      $add_ip = $bdd->prepare('INSERT INTO visites(ip, time) VALUES (:ip, :time)');
+      $add_ip->execute(array('time' => $time, 'ip' => $ip_user));
+    }else{
+      $ip_existe = $bdd->prepare('UPDATE visite SET time = ? WHERE ip = ?');
+      $ip_existe->execute(array($time, $ip_user));
+    }
+
+    $req_nb_user = $bdd->query('SELECT * FROM visites');
+    $nb_user = $req_nb_user->rowCount();
+   ?>
+
   <header>
     <div class="container">
       <div class="row">
@@ -238,6 +271,11 @@ echo "
 					<a target="_blank" href="http://entreprendre.legrandnarbonne.com/717-iness-des-hommes-des-projets.html">
 		        <img src='assets/images/logo/iness.png' id='logoInessFooter' class='img-responsive'/>
 		      </a>
+          <p>
+            <?php echo "Votre IP :" . $ip_user . "<br/>";
+                  echo "Nombre de visites : " . $nb_user;
+            ?>
+          </p>
 				</div>
 			</div>
     </div>

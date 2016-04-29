@@ -38,6 +38,7 @@
 					<a target="_blank" href="http://entreprendre.legrandnarbonne.com/717-iness-des-hommes-des-projets.html">
 		        <img src='../../assets/images/logo/iness.png' id='logoInessFooter' class='img-responsive'/>
 		      </a>
+					<p><?php include('visites.php');?></p>
 				</div>
 			</div>
     </div>

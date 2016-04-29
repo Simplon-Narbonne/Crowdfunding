@@ -6,6 +6,7 @@
 
 	<?php include("../includes/header.php");?>
 
+
 <body>
 	<div class="container">
 		<div class="row">
@@ -74,5 +75,5 @@
 	</html>
 	';
 
-	mail($mail, mb_encode_mimeheader(("[Accusée Reception] " . $objet)), $message, $header);
+	mail($mail, ("[Accusée Reception] " . $objet), $message, $header);
 	?>
